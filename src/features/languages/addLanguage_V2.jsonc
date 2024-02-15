@@ -1,0 +1,817 @@
+// https://your-price-booking.herokuapp.com
+{
+  /* POST one language provided two languages
+      /api/languages
+  */
+  "POST за одною мовою - повертає дві": {
+    "status": "success",
+    "message": "language create",
+    "code": 201,
+    "data": {
+      "language": [
+        {
+          "_id": "63024c9159419b487ba8da0c",
+          "lang": "NewLangK2",
+          "code": "NK",
+          "countries": [
+            {
+              "_id": "63024c9159419b487ba8da19",
+              "international": "USA",
+              "country": "USA",
+              "langCode": "EN",
+              "dbLangCode": "NK",
+              "states": [
+                {
+                  "_id": "63024c9159419b487ba8da35",
+                  "stateName": "Texas State",
+                  "stateInternational": "Texas State",
+                  "stateCode": "Texas",
+                  "international": "USA",
+                  "langCode": "EN",
+                  "dbLangCode": "NK",
+                  "statePhotoURL": "https://Texas.states.ua/photos/lviv-state.webp",
+                  "countryId": "63024c9159419b487ba8da19",
+                  "cities": [
+                    {
+                      "_id": "63024c9159419b487ba8da13",
+                      "stateId": "63024c9159419b487ba8da35",
+                      "cityName": "Austin",
+                      "cityInternational": "Austin",
+                      "cityCode": "Austin",
+                      "cityPhotoURL": "https://Austin.city.ua/photos/kyiv-city.webp",
+                      "langCode": "EN",
+                      "dbLangCode": "NK",
+                      "stateInternational": "Texas State",
+                      "state": "63024c9159419b487ba8da35",
+                      "districts": [],
+                      "updatedAt": "2022-08-21T15:17:37.934Z",
+                      "createdAt": "2022-08-06T19:56:50.125Z"
+                    },
+                    {
+                      "_id": "63024c9159419b487ba8da1b",
+                      "stateId": "63024c9159419b487ba8da35",
+                      "cityName": "Houston",
+                      "cityInternational": "Houston",
+                      "cityCode": "Houston",
+                      "cityPhotoURL": "https://Houston.city.ua/photos/kyiv-city.webp",
+                      "langCode": "EN",
+                      "dbLangCode": "NK",
+                      "stateInternational": "Texas State",
+                      "state": "63024c9159419b487ba8da35",
+                      "districts": [],
+                      "updatedAt": "2022-08-21T15:17:37.934Z",
+                      "createdAt": "2022-08-06T19:57:34.653Z"
+                    }
+                  ],
+                  "updatedAt": "2022-08-21T15:17:38.736Z",
+                  "createdAt": "2022-08-06T19:38:02.261Z"
+                },
+                {
+                  "_id": "63024c9159419b487ba8da3b",
+                  "stateName": "California State",
+                  "stateInternational": "California State",
+                  "stateCode": "California",
+                  "international": "USA",
+                  "langCode": "EN",
+                  "dbLangCode": "NK",
+                  "statePhotoURL": "https://California.states.ua/photos/lviv-state.webp",
+                  "countryId": "63024c9159419b487ba8da19",
+                  "cities": [
+                    {
+                      "_id": "63024c9159419b487ba8da21",
+                      "stateId": "63024c9159419b487ba8da3b",
+                      "cityName": "Los Angeles",
+                      "cityInternational": "Los Angeles",
+                      "cityCode": "Los Angeles",
+                      "cityPhotoURL": "https://Los Angeles.city.ua/photos/kyiv-city.webp",
+                      "langCode": "EN",
+                      "dbLangCode": "NK",
+                      "stateInternational": "California State",
+                      "state": "63024c9159419b487ba8da3b",
+                      "districts": [],
+                      "updatedAt": "2022-08-21T15:17:38.001Z",
+                      "createdAt": "2022-08-06T19:59:16.414Z"
+                    },
+                    {
+                      "_id": "63024c9159419b487ba8da29",
+                      "stateId": "63024c9159419b487ba8da3b",
+                      "cityName": "Napa",
+                      "cityInternational": "Napa",
+                      "cityCode": "Napa",
+                      "cityPhotoURL": "https://Napa.city.ua/photos/kyiv-city.webp",
+                      "langCode": "EN",
+                      "dbLangCode": "NK",
+                      "stateInternational": "California State",
+                      "state": "63024c9159419b487ba8da3b",
+                      "districts": [],
+                      "updatedAt": "2022-08-21T15:17:38.001Z",
+                      "createdAt": "2022-08-06T19:59:37.581Z"
+                    }
+                  ],
+                  "updatedAt": "2022-08-21T15:17:38.856Z",
+                  "createdAt": "2022-08-06T19:38:32.102Z"
+                },
+                {
+                  "_id": "63024c9159419b487ba8da41",
+                  "stateName": "Neveda State",
+                  "stateInternational": "Neveda State",
+                  "stateCode": "Neveda",
+                  "international": "USA",
+                  "langCode": "EN",
+                  "dbLangCode": "NK",
+                  "statePhotoURL": "https://Neveda.states.ua/photos/lviv-state.webp",
+                  "countryId": "63024c9159419b487ba8da19",
+                  "cities": [
+                    {
+                      "_id": "63024c9159419b487ba8da31",
+                      "stateId": "63024c9159419b487ba8da41",
+                      "cityName": "Beatty",
+                      "cityInternational": "Beatty",
+                      "cityCode": "Beatty",
+                      "cityPhotoURL": "https://Beatty.city.ua/photos/kyiv-city.webp",
+                      "langCode": "EN",
+                      "dbLangCode": "NK",
+                      "stateInternational": "Neveda State",
+                      "state": "63024c9159419b487ba8da41",
+                      "districts": [],
+                      "updatedAt": "2022-08-21T15:17:38.077Z",
+                      "createdAt": "2022-08-06T20:01:10.818Z"
+                    },
+                    {
+                      "_id": "63024c9159419b487ba8da37",
+                      "stateId": "63024c9159419b487ba8da41",
+                      "cityName": "Tonopah",
+                      "cityInternational": "Tonopah",
+                      "cityCode": "Tonopah",
+                      "cityPhotoURL": "https://Tonopah.city.ua/photos/kyiv-city.webp",
+                      "langCode": "EN",
+                      "dbLangCode": "NK",
+                      "stateInternational": "Neveda State",
+                      "state": "63024c9159419b487ba8da41",
+                      "districts": [
+                        {
+                          "_id": "63024c9159419b487ba8da1f",
+                          "districtName": "Central",
+                          "districtInternational": "Central",
+                          "districtCode": "CN",
+                          "districtPhotoURL": "https://Central.district.ua/photos/kyiv-podil.webp",
+                          "cityInternational": "Tonopah",
+                          "langCode": "EN",
+                          "dbLangCode": "NK",
+                          "createdAt": "2022-08-21T15:17:37.258Z",
+                          "updatedAt": "2022-08-21T15:17:38.925Z",
+                          "cityId": "63024c9159419b487ba8da37",
+                          "stateId": "63024c9159419b487ba8da41"
+                        }
+                      ],
+                      "updatedAt": "2022-08-21T15:17:39.171Z",
+                      "createdAt": "2022-08-06T20:01:29.873Z"
+                    }
+                  ],
+                  "updatedAt": "2022-08-21T15:17:38.983Z",
+                  "createdAt": "2022-08-06T19:41:08.799Z"
+                },
+                {
+                  "_id": "63024c9159419b487ba8da47",
+                  "stateName": "Florida State",
+                  "stateInternational": "Florida State",
+                  "stateCode": "Florida",
+                  "international": "USA",
+                  "langCode": "EN",
+                  "dbLangCode": "NK",
+                  "statePhotoURL": "https://Florida.states.ua/photos/lviv-state.webp",
+                  "countryId": "63024c9159419b487ba8da19",
+                  "cities": [
+                    {
+                      "_id": "63024c9159419b487ba8da3d",
+                      "stateId": "63024c9159419b487ba8da47",
+                      "cityName": "Miami",
+                      "cityInternational": "Miami",
+                      "cityCode": "Miami",
+                      "cityPhotoURL": "https://Miami.city.ua/photos/kyiv-city.webp",
+                      "langCode": "EN",
+                      "dbLangCode": "NK",
+                      "stateInternational": "Florida State",
+                      "state": "63024c9159419b487ba8da47",
+                      "districts": [
+                        {
+                          "_id": "63024c9159419b487ba8da17",
+                          "districtName": "Central",
+                          "districtInternational": "Central",
+                          "districtCode": "CN",
+                          "districtPhotoURL": "https://Miami.district.ua/photos/kyiv-podil.webp",
+                          "cityInternational": "Miami",
+                          "langCode": "EN",
+                          "dbLangCode": "NK",
+                          "createdAt": "2022-08-21T15:17:37.223Z",
+                          "updatedAt": "2022-08-21T15:17:38.968Z",
+                          "cityId": "63024c9159419b487ba8da3d",
+                          "stateId": "63024c9159419b487ba8da47"
+                        }
+                      ],
+                      "updatedAt": "2022-08-21T15:17:39.253Z",
+                      "createdAt": "2022-08-06T20:03:01.167Z"
+                    },
+                    {
+                      "_id": "63024c9159419b487ba8da43",
+                      "stateId": "63024c9159419b487ba8da47",
+                      "cityName": "Orlando",
+                      "cityInternational": "Orlando",
+                      "cityCode": "Orlando",
+                      "cityPhotoURL": "https://Orlando.city.ua/photos/kyiv-city.webp",
+                      "langCode": "EN",
+                      "dbLangCode": "NK",
+                      "stateInternational": "Florida State",
+                      "state": "63024c9159419b487ba8da47",
+                      "districts": [
+                        {
+                          "_id": "63024c9159419b487ba8da27",
+                          "districtName": "Central",
+                          "districtInternational": "Central",
+                          "districtCode": "CN",
+                          "districtPhotoURL": "https://Central.district.ua/photos/kyiv-podil.webp",
+                          "cityInternational": "Orlando",
+                          "langCode": "EN",
+                          "dbLangCode": "NK",
+                          "createdAt": "2022-08-21T15:17:37.289Z",
+                          "updatedAt": "2022-08-21T15:17:39.017Z",
+                          "cityId": "63024c9159419b487ba8da43",
+                          "stateId": "63024c9159419b487ba8da47"
+                        }
+                      ],
+                      "updatedAt": "2022-08-21T15:17:39.328Z",
+                      "createdAt": "2022-08-06T20:03:23.019Z"
+                    }
+                  ],
+                  "updatedAt": "2022-08-21T15:17:39.125Z",
+                  "createdAt": "2022-08-06T19:41:46.890Z"
+                }
+              ],
+              "createdAt": "2022-08-21T15:17:37.225Z",
+              "updatedAt": "2022-08-21T15:17:38.287Z"
+            },
+            {
+              "_id": "63024c9159419b487ba8da23",
+              "international": "Ukraine",
+              "country": "Ukraine",
+              "langCode": "EN",
+              "dbLangCode": "NK",
+              "states": [
+                {
+                  "_id": "63024c9159419b487ba8da15",
+                  "stateName": "Kiev State",
+                  "stateInternational": "Kiev State",
+                  "stateCode": "Kiev",
+                  "international": "Ukraine",
+                  "langCode": "EN",
+                  "dbLangCode": "NK",
+                  "statePhotoURL": "https://Kiev.states.ua/photos/lviv-state.webp",
+                  "countryId": "63024c9159419b487ba8da23",
+                  "cities": [
+                    {
+                      "_id": "63024c9159419b487ba8da49",
+                      "stateId": "63024c9159419b487ba8da15",
+                      "cityName": "Irpen",
+                      "cityInternational": "Irpen",
+                      "cityCode": "Irpen",
+                      "cityPhotoURL": "https://Irpen.city.ua/photos/kyiv-city.webp",
+                      "langCode": "EN",
+                      "dbLangCode": "NK",
+                      "stateInternational": "Kiev State",
+                      "state": "63024c9159419b487ba8da15",
+                      "districts": [],
+                      "updatedAt": "2022-08-21T15:17:37.723Z",
+                      "createdAt": "2022-08-06T20:04:02.273Z"
+                    },
+                    {
+                      "_id": "63024c9159419b487ba8da4f",
+                      "stateId": "63024c9159419b487ba8da15",
+                      "cityName": "Bucha",
+                      "cityInternational": "Bucha",
+                      "cityCode": "Bucha",
+                      "cityPhotoURL": "https://Bucha.city.ua/photos/kyiv-city.webp",
+                      "langCode": "EN",
+                      "dbLangCode": "NK",
+                      "stateInternational": "Kiev State",
+                      "state": "63024c9159419b487ba8da15",
+                      "districts": [],
+                      "updatedAt": "2022-08-21T15:17:37.723Z",
+                      "createdAt": "2022-08-06T20:04:15.285Z"
+                    }
+                  ],
+                  "updatedAt": "2022-08-21T15:17:38.541Z",
+                  "createdAt": "2022-08-06T19:36:24.511Z"
+                },
+                {
+                  "_id": "63024c9159419b487ba8da1d",
+                  "stateName": "Dnipropetrovsk State",
+                  "stateInternational": "Dnipropetrovsk State",
+                  "stateCode": "Dnipropetrovsk",
+                  "international": "Ukraine",
+                  "langCode": "EN",
+                  "dbLangCode": "NK",
+                  "statePhotoURL": "https://Dnipropetrovsk.states.ua/photos/lviv-state.webp",
+                  "countryId": "63024c9159419b487ba8da23",
+                  "cities": [
+                    {
+                      "_id": "63024c9159419b487ba8da52",
+                      "stateId": "63024c9159419b487ba8da1d",
+                      "cityName": "Dnipro",
+                      "cityInternational": "Dnipro",
+                      "cityCode": "Dnipro",
+                      "cityPhotoURL": "https://Dnipro.city.ua/photos/kyiv-city.webp",
+                      "langCode": "EN",
+                      "dbLangCode": "NK",
+                      "stateInternational": "Dnipropetrovsk State",
+                      "state": "63024c9159419b487ba8da1d",
+                      "districts": [],
+                      "updatedAt": "2022-08-21T15:17:37.793Z",
+                      "createdAt": "2022-08-06T20:04:47.527Z"
+                    },
+                    {
+                      "_id": "63024c9159419b487ba8da57",
+                      "stateId": "63024c9159419b487ba8da1d",
+                      "cityName": "Kamenskoe",
+                      "cityInternational": "Kamenskoe",
+                      "cityCode": "Kamenskoe",
+                      "cityPhotoURL": "https://Kamenskoe.city.ua/photos/kyiv-city.webp",
+                      "langCode": "EN",
+                      "dbLangCode": "NK",
+                      "stateInternational": "Dnipropetrovsk State",
+                      "state": "63024c9159419b487ba8da1d",
+                      "districts": [],
+                      "updatedAt": "2022-08-21T15:17:37.793Z",
+                      "createdAt": "2022-08-06T20:06:40.207Z"
+                    }
+                  ],
+                  "updatedAt": "2022-08-21T15:17:38.541Z",
+                  "createdAt": "2022-08-06T19:36:53.491Z"
+                },
+                {
+                  "_id": "63024c9159419b487ba8da25",
+                  "stateName": "Odessa State",
+                  "stateInternational": "Odessa State",
+                  "stateCode": "Odessa",
+                  "international": "Ukraine",
+                  "langCode": "EN",
+                  "dbLangCode": "NK",
+                  "statePhotoURL": "https://Odessa.states.ua/photos/lviv-state.webp",
+                  "countryId": "63024c9159419b487ba8da23",
+                  "cities": [
+                    {
+                      "_id": "63024c9159419b487ba8da5c",
+                      "stateId": "63024c9159419b487ba8da25",
+                      "cityName": "Odessa",
+                      "cityInternational": "Odessa",
+                      "cityCode": "Odessa",
+                      "cityPhotoURL": "https://Odessa.city.ua/photos/kyiv-city.webp",
+                      "langCode": "EN",
+                      "dbLangCode": "NK",
+                      "stateInternational": "Odessa State",
+                      "state": "63024c9159419b487ba8da25",
+                      "districts": [],
+                      "updatedAt": "2022-08-21T15:17:37.827Z",
+                      "createdAt": "2022-08-06T20:08:44.082Z"
+                    }
+                  ],
+                  "updatedAt": "2022-08-21T15:17:38.541Z",
+                  "createdAt": "2022-08-06T19:37:12.083Z"
+                },
+                {
+                  "_id": "63024c9159419b487ba8da2d",
+                  "stateName": "Lviv State",
+                  "stateInternational": "Lviv State",
+                  "stateCode": "Lviv",
+                  "international": "Ukraine",
+                  "langCode": "EN",
+                  "dbLangCode": "NK",
+                  "statePhotoURL": "https://Lviv.states.ua/photos/lviv-state.webp",
+                  "countryId": "63024c9159419b487ba8da23",
+                  "cities": [
+                    {
+                      "_id": "63024c9159419b487ba8da61",
+                      "stateId": "63024c9159419b487ba8da2d",
+                      "cityName": "Lviv",
+                      "cityInternational": "Lviv",
+                      "cityCode": "Lviv",
+                      "cityPhotoURL": "https://Lviv.city.ua/photos/kyiv-city.webp",
+                      "langCode": "EN",
+                      "dbLangCode": "NK",
+                      "stateInternational": "Lviv State",
+                      "state": "63024c9159419b487ba8da2d",
+                      "districts": [],
+                      "updatedAt": "2022-08-21T15:17:37.863Z",
+                      "createdAt": "2022-08-06T20:10:00.228Z"
+                    }
+                  ],
+                  "updatedAt": "2022-08-21T15:17:38.591Z",
+                  "createdAt": "2022-08-06T19:37:24.249Z"
+                }
+              ],
+              "createdAt": "2022-08-21T15:17:37.267Z",
+              "updatedAt": "2022-08-21T15:17:38.579Z"
+            },
+            {
+              "_id": "63024c9159419b487ba8da2b",
+              "international": "Poland",
+              "country": "Poland",
+              "langCode": "EN",
+              "dbLangCode": "NK",
+              "states": [
+                {
+                  "_id": "63024c9159419b487ba8da4d",
+                  "stateName": "Masovian State",
+                  "stateInternational": "Masovian State",
+                  "stateCode": "Masovian",
+                  "international": "Poland",
+                  "langCode": "EN",
+                  "dbLangCode": "NK",
+                  "statePhotoURL": "https://Masovian.states.ua/photos/lviv-state.webp",
+                  "countryId": "63024c9159419b487ba8da2b",
+                  "cities": [],
+                  "updatedAt": "2022-08-21T15:17:38.918Z",
+                  "createdAt": "2022-08-06T19:45:19.257Z"
+                },
+                {
+                  "_id": "63024c9159419b487ba8da54",
+                  "stateName": "Lublin State",
+                  "stateInternational": "Lublin State",
+                  "stateCode": "Lublin",
+                  "international": "Poland",
+                  "langCode": "EN",
+                  "dbLangCode": "NK",
+                  "statePhotoURL": "https://Lublin.states.ua/photos/lviv-state.webp",
+                  "countryId": "63024c9159419b487ba8da2b",
+                  "cities": [],
+                  "updatedAt": "2022-08-21T15:17:38.918Z",
+                  "createdAt": "2022-08-06T19:45:49.193Z"
+                },
+                {
+                  "_id": "63024c9159419b487ba8da59",
+                  "stateName": "Lodz State",
+                  "stateInternational": "Lodz State",
+                  "stateCode": "Lodz",
+                  "international": "Poland",
+                  "langCode": "EN",
+                  "dbLangCode": "NK",
+                  "statePhotoURL": "https://Lodz.states.ua/photos/lviv-state.webp",
+                  "countryId": "63024c9159419b487ba8da2b",
+                  "cities": [],
+                  "updatedAt": "2022-08-21T15:17:38.918Z",
+                  "createdAt": "2022-08-06T19:46:03.924Z"
+                },
+                {
+                  "_id": "63024c9159419b487ba8da5e",
+                  "stateName": "Opole State",
+                  "stateInternational": "Opole State",
+                  "stateCode": "Opole",
+                  "international": "Poland",
+                  "langCode": "EN",
+                  "dbLangCode": "NK",
+                  "statePhotoURL": "https://Opole.states.ua/photos/lviv-state.webp",
+                  "countryId": "63024c9159419b487ba8da2b",
+                  "cities": [],
+                  "updatedAt": "2022-08-21T15:17:38.918Z",
+                  "createdAt": "2022-08-06T19:46:44.341Z"
+                },
+                {
+                  "_id": "63024c9159419b487ba8da63",
+                  "stateName": "Lubusz State",
+                  "stateInternational": "Lubusz State",
+                  "stateCode": "Lubusz",
+                  "international": "Poland",
+                  "langCode": "EN",
+                  "dbLangCode": "NK",
+                  "statePhotoURL": "https://Lubusz.states.ua/photos/lviv-state.webp",
+                  "countryId": "63024c9159419b487ba8da2b",
+                  "cities": [],
+                  "updatedAt": "2022-08-21T15:17:38.918Z",
+                  "createdAt": "2022-08-06T19:47:31.252Z"
+                }
+              ],
+              "createdAt": "2022-08-21T15:17:37.300Z",
+              "updatedAt": "2022-08-21T15:17:38.963Z"
+            },
+            {
+              "_id": "63024c9159419b487ba8da33",
+              "international": "Germany",
+              "country": "Germany",
+              "langCode": "EN",
+              "dbLangCode": "NK",
+              "states": [
+                {
+                  "_id": "63024c9159419b487ba8da67",
+                  "stateName": "Bavaria State",
+                  "stateInternational": "Bavaria State",
+                  "stateCode": "Bavaria",
+                  "international": "Germany",
+                  "langCode": "EN",
+                  "dbLangCode": "NK",
+                  "statePhotoURL": "https://Bavaria.states.ua/photos/lviv-state.webp",
+                  "countryId": "63024c9159419b487ba8da33",
+                  "cities": [],
+                  "updatedAt": "2022-08-21T15:17:39.149Z",
+                  "createdAt": "2022-08-06T19:48:59.856Z"
+                },
+                {
+                  "_id": "63024c9159419b487ba8da6b",
+                  "stateName": "Saxony State",
+                  "stateInternational": "Saxony State",
+                  "stateCode": "Saxony",
+                  "international": "Germany",
+                  "langCode": "EN",
+                  "dbLangCode": "NK",
+                  "statePhotoURL": "https://Saxony.states.ua/photos/lviv-state.webp",
+                  "countryId": "63024c9159419b487ba8da33",
+                  "cities": [],
+                  "updatedAt": "2022-08-21T15:17:39.149Z",
+                  "createdAt": "2022-08-06T19:49:15.381Z"
+                },
+                {
+                  "_id": "63024c9159419b487ba8da6f",
+                  "stateName": "Hessen State",
+                  "stateInternational": "Hessen State",
+                  "stateCode": "Hessen",
+                  "international": "Germany",
+                  "langCode": "EN",
+                  "dbLangCode": "NK",
+                  "statePhotoURL": "https://Hessen.states.ua/photos/lviv-state.webp",
+                  "countryId": "63024c9159419b487ba8da33",
+                  "cities": [],
+                  "updatedAt": "2022-08-21T15:17:39.149Z",
+                  "createdAt": "2022-08-06T19:49:35.262Z"
+                }
+              ],
+              "createdAt": "2022-08-21T15:17:37.331Z",
+              "updatedAt": "2022-08-21T15:17:39.187Z"
+            },
+            {
+              "_id": "63024c9159419b487ba8da39",
+              "international": "Canada",
+              "country": "Canada",
+              "langCode": "EN",
+              "dbLangCode": "NK",
+              "states": [
+                {
+                  "_id": "63024c9159419b487ba8da80",
+                  "stateName": "Alberta State",
+                  "stateInternational": "Alberta State",
+                  "stateCode": "Alberta",
+                  "international": "Canada",
+                  "langCode": "EN",
+                  "dbLangCode": "NK",
+                  "statePhotoURL": "https://Alberta.states.ua/photos/lviv-state.webp",
+                  "countryId": "63024c9159419b487ba8da39",
+                  "cities": [],
+                  "updatedAt": "2022-08-21T15:17:39.371Z",
+                  "createdAt": "2022-08-06T19:53:06.418Z"
+                },
+                {
+                  "_id": "63024c9159419b487ba8da83",
+                  "stateName": "Manitoba State",
+                  "stateInternational": "Manitoba State",
+                  "stateCode": "Manitoba",
+                  "international": "Canada",
+                  "langCode": "EN",
+                  "dbLangCode": "NK",
+                  "statePhotoURL": "https://Manitoba.states.ua/photos/lviv-state.webp",
+                  "countryId": "63024c9159419b487ba8da39",
+                  "cities": [],
+                  "updatedAt": "2022-08-21T15:17:39.371Z",
+                  "createdAt": "2022-08-06T19:53:21.564Z"
+                },
+                {
+                  "_id": "63024c9159419b487ba8da86",
+                  "stateName": "Ontario State",
+                  "stateInternational": "Ontario State",
+                  "stateCode": "Ontario",
+                  "international": "Canada",
+                  "langCode": "EN",
+                  "dbLangCode": "NK",
+                  "statePhotoURL": "https://Ontario.states.ua/photos/lviv-state.webp",
+                  "countryId": "63024c9159419b487ba8da39",
+                  "cities": [],
+                  "updatedAt": "2022-08-21T15:17:39.371Z",
+                  "createdAt": "2022-08-06T19:53:42.464Z"
+                }
+              ],
+              "createdAt": "2022-08-21T15:17:37.363Z",
+              "updatedAt": "2022-08-21T15:17:39.411Z"
+            },
+            {
+              "_id": "63024c9159419b487ba8da3f",
+              "international": "Tailand",
+              "country": "Tailand",
+              "langCode": "EN",
+              "dbLangCode": "NK",
+              "states": [],
+              "createdAt": "2022-08-21T15:17:37.396Z",
+              "updatedAt": "2022-08-21T15:17:37.396Z"
+            },
+            {
+              "_id": "63024c9159419b487ba8da45",
+              "international": "Japan",
+              "country": "Japan",
+              "langCode": "EN",
+              "dbLangCode": "NK",
+              "states": [
+                {
+                  "_id": "63024c9159419b487ba8da89",
+                  "stateName": "Kanto State",
+                  "stateInternational": "Kanto State",
+                  "stateCode": "Kanto",
+                  "international": "Japan",
+                  "langCode": "EN",
+                  "dbLangCode": "NK",
+                  "statePhotoURL": "https://Kanto.states.ua/photos/lviv-state.webp",
+                  "countryId": "63024c9159419b487ba8da45",
+                  "cities": [
+                    {
+                      "_id": "63012f2e536f29ef3020904e",
+                      "stateId": "63012e98536f29ef30209015",
+                      "cityName": "Tokyo",
+                      "cityInternational": "Tokyo",
+                      "cityCode": "Tokyo",
+                      "cityPhotoURL": "https://Tokyo.city.ua/photos/kyiv-city.webp",
+                      "langCode": "EN",
+                      "stateInternational": "Kanto State",
+                      "state": "63012e98536f29ef30209015",
+                      "districts": [
+                        {
+                          "_id": "63012fa8536f29ef30209089",
+                          "stateId": "63012e98536f29ef30209015",
+                          "cityId": "63012f2e536f29ef3020904e",
+                          "districtName": "Central",
+                          "districtInternational": "Central",
+                          "districtCode": "CN",
+                          "districtPhotoURL": "https://Central.district.ua/photos/kyiv-podil.webp",
+                          "cityInternational": "Tokyo",
+                          "langCode": "EN",
+                          "dbLangCode": "EN",
+                          "createdAt": "2022-08-20T19:02:00.614Z",
+                          "updatedAt": "2022-08-20T19:02:00.614Z"
+                        }
+                      ],
+                      "createdAt": "2022-08-20T18:59:58.180Z",
+                      "updatedAt": "2022-08-20T19:02:03.711Z"
+                    }
+                  ],
+                  "updatedAt": "2022-08-21T15:17:39.443Z",
+                  "createdAt": "2022-08-20T18:57:28.012Z"
+                }
+              ],
+              "createdAt": "2022-08-21T15:17:37.432Z",
+              "updatedAt": "2022-08-21T15:17:39.483Z"
+            },
+            {
+              "_id": "63024c9159419b487ba8da4b",
+              "international": "NewCountry08211724",
+              "country": "NewCountry08211724",
+              "langCode": "EN",
+              "dbLangCode": "NK",
+              "states": [],
+              "createdAt": "2022-08-21T15:17:37.465Z",
+              "updatedAt": "2022-08-21T15:17:37.465Z"
+            }
+          ],
+          "createdAt": "2022-08-21T15:17:37.127Z",
+          "updatedAt": "2022-08-21T15:19:33.527Z"
+        },
+        {
+          "_id": "63024dca59419b487ba8db17",
+          "lang": "NewLang5",
+          "code": "NK",
+          "countries": [],
+          "createdAt": "2022-08-21T15:22:50.513Z",
+          "updatedAt": "2022-08-21T15:22:50.513Z"
+        }
+      ]
+    }
+  },
+
+  /* PATCH one language
+      /api/languages/63024c9159419b487ba8da0c
+  */
+  "PATCH oneLanguage": {
+    "status": "success",
+    "code": 200,
+    "data": {
+      /* Можна, будь ласка, тут зміни на "language" ? */
+      "languages": {
+        "_id": "63024c9159419b487ba8da0c",
+        "lang": "NewLangK2",
+        "code": "NK",
+        "countries": [
+          "63024c9159419b487ba8da19",
+          "63024c9159419b487ba8da23",
+          "63024c9159419b487ba8da2b",
+          "63024c9159419b487ba8da33",
+          "63024c9159419b487ba8da39",
+          "63024c9159419b487ba8da3f",
+          "63024c9159419b487ba8da45",
+          "63024c9159419b487ba8da4b"
+        ],
+        "createdAt": "2022-08-21T15:17:37.127Z",
+        "updatedAt": "2022-08-21T15:19:33.527Z"
+      }
+    }
+  },
+
+  /* V3 */
+  "PATCH one Language test2": {
+    "status": "success",
+    "code": 200,
+    "data": {
+      "language": {
+        "_id": "63078a9292b17f3f87d749c3",
+        "lang": "Italiana",
+        "code": "IT",
+        "countries": [
+          "63078ae792b17f3f87d749ef",
+          "63078ae892b17f3f87d749f7",
+          "63078b0292b17f3f87d74a03",
+          "63078b0b92b17f3f87d74a0d"
+        ],
+        "createdAt": "2022-08-25T14:43:30.617Z",
+        "updatedAt": "2022-08-26T10:44:21.351Z"
+      }
+    }
+  },
+
+  /* DELETE one language
+      /api/languages/63023d4259419b487ba8d729
+  */
+  "DELETE deleteOne": {
+    "status": "succes",
+    "code": 200,
+    "message": "contact deleted",
+    "data": {
+      /* Можна, будь ласка, тут змінити на "languages" -> "language" ? */
+      "languages": {
+        "_id": "63023d4259419b487ba8d729",
+        "lang": "NewLang4",
+        "code": "NL",
+        "countries": [
+          "62f56206b27f74ad3a2b8bb3",
+          "62f56206b27f74ad3a2b8bb4",
+          "62f56206b27f74ad3a2b8bb5",
+          "62f56206b27f74ad3a2b8bb6",
+          "62f56206b27f74ad3a2b8bb7",
+          "62f56206b27f74ad3a2b8bb8",
+          "63023b4959419b487ba8d59b",
+          "63023b4959419b487ba8d5a1",
+          "63023b4959419b487ba8d5a7",
+          "63023b4959419b487ba8d5ad",
+          "63023b4959419b487ba8d5b3",
+          "63023b4959419b487ba8d5b9",
+          "63023b4a59419b487ba8d5c1",
+          "63023d4259419b487ba8d730",
+          "63023d4259419b487ba8d738",
+          "63023d4259419b487ba8d73e",
+          "63023d4259419b487ba8d747",
+          "63023d4259419b487ba8d74e",
+          "63023d4259419b487ba8d755",
+          "63023d4259419b487ba8d75c",
+          "6302402659419b487ba8d9ce"
+        ],
+        "createdAt": "2022-08-21T14:12:18.027Z",
+        "updatedAt": "2022-08-21T14:24:38.620Z"
+      }
+    }
+  },
+
+  "Delete one language": {
+    "status": "succes",
+    "code": 200,
+    "message": "contact deleted",
+    "data": {
+      "languages": {
+        "_id": "63024c9159419b487ba8da0c",
+        "lang": "NewLangK2",
+        "code": "NK",
+        "countries": [
+          "63024c9159419b487ba8da19",
+          "63024c9159419b487ba8da23",
+          "63024c9159419b487ba8da2b",
+          "63024c9159419b487ba8da33",
+          "63024c9159419b487ba8da39",
+          "63024c9159419b487ba8da3f",
+          "63024c9159419b487ba8da45",
+          "63024c9159419b487ba8da4b",
+          "63024dca59419b487ba8db1e",
+          "63024dca59419b487ba8db27",
+          "63024dca59419b487ba8db30",
+          "63024dca59419b487ba8db39",
+          "63024dca59419b487ba8db42",
+          "63024dca59419b487ba8db46",
+          "63024dca59419b487ba8db4c",
+          "63024dca59419b487ba8db52",
+          "63026f8b97e14c8318815223",
+          "63026f8b97e14c8318815226"
+        ],
+        "createdAt": "2022-08-21T15:17:37.127Z",
+        "updatedAt": "2022-08-21T17:46:51.506Z"
+      }
+    }
+  }
+}

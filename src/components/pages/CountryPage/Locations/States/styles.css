@@ -1,0 +1,14 @@
+.grid {
+  border: 1px solid #d9dddd;
+}
+
+.gridItemEven,
+.gridItemOdd {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gridItemEven {
+  background-color: #f8f8f0;
+}

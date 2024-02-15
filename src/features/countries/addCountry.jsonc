@@ -1,0 +1,63 @@
+// https://your-price-booking.herokuapp.com
+{
+  /*
+    Post  /api/countries/
+  */
+  "POST add one country": {
+    "status": "success",
+    "code": 201,
+    "data": {
+      "country": {
+        "international": "Malay",
+        "country": "Malay",
+        "langCode": "EN",
+        "dbLangCode": "EN",
+        "states": [],
+        "_id": "63026f8a97e14c8318815210",
+        "createdAt": "2022-08-21T17:46:50.999Z",
+        "updatedAt": "2022-08-21T17:46:50.999Z"
+      }
+    }
+  },
+
+  /*
+    PATCH  /api/countries/63026f8a97e14c8318815210
+  */
+  "PATCH one country": {
+    "status": "succes",
+    "code": 200,
+    "data": {
+      "result": {
+        "_id": "63026f8a97e14c8318815210",
+        "international": "Malay",
+        "country": "Малазія",
+        "langCode": "UK",
+        "dbLangCode": "EN",
+        "states": [],
+        "createdAt": "2022-08-21T17:46:50.999Z",
+        "updatedAt": "2022-08-21T17:56:34.262Z"
+      }
+    }
+  },
+
+  /*
+    DELETE  /api/countries/63026f8a97e14c8318815210
+  */
+  "DELETE one country": {
+    "status": "succes",
+    "code": 200,
+    "message": "country deleted",
+    "data": {
+      "result": {
+        "_id": "63026f8a97e14c8318815210",
+        "international": "Malay",
+        "country": "Малазія",
+        "langCode": "UK",
+        "dbLangCode": "EN",
+        "states": [],
+        "createdAt": "2022-08-21T17:46:50.999Z",
+        "updatedAt": "2022-08-21T17:56:34.262Z"
+      }
+    }
+  }
+}

@@ -1,0 +1,2 @@
+
+export {VerificationCabinet} from './VerificationCabinet'

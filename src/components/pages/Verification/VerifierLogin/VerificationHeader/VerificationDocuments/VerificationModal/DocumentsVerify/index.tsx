@@ -1,0 +1,1 @@
+export { DocumentsVerify } from './DocumentsVerify';

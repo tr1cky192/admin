@@ -1,0 +1,1 @@
+export {AdminPageAccess} from "./AdminPageAccess"

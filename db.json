@@ -1,0 +1,1519 @@
+{
+  "languages": [
+    {
+      "_id": "62eecad7d26c6872771b5e5f",
+      "lang": "Українська",
+      "code": "UK",
+      "countries": [
+        {
+          "_id": "62eecad6d26c6872771b5e3b",
+          "international": "USA",
+          "country": "USA",
+          "langCode": "EN",
+          "dbLangCode": "UK",
+          "states": [
+            {
+              "_id": "62eec3fad26c6872771b5dbf",
+              "stateName": "Florida State",
+              "stateInternational": "Florida State",
+              "stateCode": "Florida",
+              "international": "USA",
+              "langCode": "EN",
+              "dbLangCode": "EN",
+              "statePhotoURL": "https://Florida.states.ua/photos/lviv-state.webp",
+              "countryId": "62eec1cdd26c6872771b5d7d",
+              "cities": [
+                {
+                  "_id": "62eec8f5d26c6872771b5e1a",
+                  "stateId": "62eec3fad26c6872771b5dbf",
+                  "cityName": "Miami",
+                  "cityInternational": "Miami",
+                  "cityCode": "Miami",
+                  "cityPhotoURL": "https://Miami.city.ua/photos/kyiv-city.webp",
+                  "langCode": "EN",
+                  "stateInternational": "Florida State",
+                  "state": "62eec3fad26c6872771b5dbf",
+                  "districts": [
+                    {
+                      "_id": "62eecb8ad26c6872771b5e69",
+                      "stateId": "62eec3fad26c6872771b5dbf",
+                      "cityId": "62eec8f5d26c6872771b5e1a",
+                      "districtName": "Central",
+                      "districtInternational": "Central",
+                      "districtCode": "CN",
+                      "districtPhotoURL": "https://Miami.district.ua/photos/kyiv-podil.webp",
+                      "cityInternational": "Miami",
+                      "langCode": "EN",
+                      "dbLangCode": "EN"
+                    }
+                  ],
+                  "createdAt": "2022-08-06T20:03:01.167Z",
+                  "updatedAt": "2022-08-06T20:14:02.168Z",
+                  "dbLangCode": "EN"
+                },
+                {
+                  "_id": "62eec90bd26c6872771b5e1e",
+                  "stateId": "62eec3fad26c6872771b5dbf",
+                  "cityName": "Orlando",
+                  "cityInternational": "Orlando",
+                  "cityCode": "Orlando",
+                  "cityPhotoURL": "https://Orlando.city.ua/photos/kyiv-city.webp",
+                  "langCode": "EN",
+                  "stateInternational": "Florida State",
+                  "state": "62eec3fad26c6872771b5dbf",
+                  "districts": [
+                    {
+                      "_id": "62eecc06d26c6872771b5e71",
+                      "stateId": "62eec3fad26c6872771b5dbf",
+                      "cityId": "62eec90bd26c6872771b5e1e",
+                      "districtName": "Central",
+                      "districtInternational": "Central",
+                      "districtCode": "CN",
+                      "districtPhotoURL": "https://Central.district.ua/photos/kyiv-podil.webp",
+                      "cityInternational": "Orlando",
+                      "langCode": "EN",
+                      "dbLangCode": "EN"
+                    }
+                  ],
+                  "createdAt": "2022-08-06T20:03:23.019Z",
+                  "updatedAt": "2022-08-06T20:16:06.802Z",
+                  "dbLangCode": "EN"
+                }
+              ],
+              "createdAt": "2022-08-06T19:41:46.890Z",
+              "updatedAt": "2022-08-06T20:03:23.073Z"
+            }
+          ]
+        }
+      ],
+      "createdAt": "2022-08-06T20:11:03.606Z",
+      "updatedAt": "2022-08-13T19:03:29.558Z"
+    },
+
+    {
+      "_id": "62faa7974ff0bb2c6a0d5587",
+      "lang": "TEST",
+      "code": "TS",
+      "countries": [
+        {
+          "_id": "62faa7974ff0bb2c6a0d558e",
+          "international": "USA",
+          "country": "USA",
+          "langCode": "EN",
+          "dbLangCode": "TS",
+          "states": [
+            {
+              "_id": "62faa7994ff0bb2c6a0d55c1",
+              "stateName": "Florida State",
+              "stateInternational": "Florida State",
+              "stateCode": "Florida",
+              "international": "USA",
+              "langCode": "EN",
+              "dbLangCode": "TS",
+              "statePhotoURL": "https://Florida.states.ua/photos/lviv-state.webp",
+              "countryId": "62faa7974ff0bb2c6a0d558e",
+              "cities": [
+                {
+                  "_id": "62faa7994ff0bb2c6a0d55c3",
+                  "stateId": "62faa7994ff0bb2c6a0d55c1",
+                  "cityName": "Miami",
+                  "cityInternational": "Miami",
+                  "cityCode": "Miami",
+                  "cityPhotoURL": "https://Miami.city.ua/photos/kyiv-city.webp",
+                  "langCode": "EN",
+                  "dbLangCode": "TS",
+                  "stateInternational": "Florida State",
+                  "state": "62faa7994ff0bb2c6a0d55c1",
+                  "districts": [
+                    {
+                      "_id": "62eecb8ad26c6872771b5e69",
+                      "stateId": "62eec3fad26c6872771b5dbf",
+                      "cityId": "62eec8f5d26c6872771b5e1a",
+                      "districtName": "Central",
+                      "districtInternational": "Central",
+                      "districtCode": "CN",
+                      "districtPhotoURL": "https://Miami.district.ua/photos/kyiv-podil.webp",
+                      "cityInternational": "Miami",
+                      "langCode": "EN",
+                      "dbLangCode": "EN"
+                    }
+                  ],
+                  "updatedAt": "2022-08-15T20:07:55.126Z",
+                  "createdAt": "2022-08-06T20:03:01.167Z"
+                },
+                {
+                  "_id": "62faa7994ff0bb2c6a0d55c8",
+                  "stateId": "62faa7994ff0bb2c6a0d55c1",
+                  "cityName": "Orlando",
+                  "cityInternational": "Orlando",
+                  "cityCode": "Orlando",
+                  "cityPhotoURL": "https://Orlando.city.ua/photos/kyiv-city.webp",
+                  "langCode": "EN",
+                  "dbLangCode": "TS",
+                  "stateInternational": "Florida State",
+                  "state": "62faa7994ff0bb2c6a0d55c1",
+                  "districts": [
+                    {
+                      "_id": "62eecc06d26c6872771b5e71",
+                      "stateId": "62eec3fad26c6872771b5dbf",
+                      "cityId": "62eec90bd26c6872771b5e1e",
+                      "districtName": "Central",
+                      "districtInternational": "Central",
+                      "districtCode": "CN",
+                      "districtPhotoURL": "https://Central.district.ua/photos/kyiv-podil.webp",
+                      "cityInternational": "Orlando",
+                      "langCode": "EN",
+                      "dbLangCode": "EN"
+                    }
+                  ],
+                  "updatedAt": "2022-08-15T20:07:55.126Z",
+                  "createdAt": "2022-08-06T20:03:23.019Z"
+                }
+              ],
+              "updatedAt": "2022-08-15T20:07:56.610Z",
+              "createdAt": "2022-08-06T19:41:46.890Z"
+            }
+          ],
+          "createdAt": "2022-08-15T20:07:51.236Z",
+          "updatedAt": "2022-08-15T20:07:55.130Z"
+        }
+      ],
+      "createdAt": "2022-08-15T20:07:51.098Z",
+      "updatedAt": "2022-08-15T20:07:54.091Z"
+    }
+  ],
+  "countries": [
+    {
+      "_id": "62eec1cdd26c6872771b5d7d",
+      "international": "USA",
+      "country": "USA",
+      "langCode": "EN",
+      "dbLangCode": "EN",
+      "states": [
+        "62eec31ad26c6872771b5da9",
+        "62eec338d26c6872771b5db2",
+        "62eec3d4d26c6872771b5dbb",
+        "62eec3fad26c6872771b5dbf"
+      ],
+      "updatedAt": "2022-08-11T19:21:05.505Z"
+    },
+    {
+      "_id": "62eec1e1d26c6872771b5d81",
+      "international": "Ukraine",
+      "country": "Ukraine",
+      "langCode": "EN",
+      "dbLangCode": "EN",
+      "states": [
+        "62eec2b8d26c6872771b5d99",
+        "62eec2d5d26c6872771b5d9d",
+        "62eec2e8d26c6872771b5da1",
+        "62eec2f4d26c6872771b5da5",
+        "62eec31bd26c6872771b5dad"
+      ],
+      "updatedAt": "2022-08-11T19:21:05.950Z"
+    },
+    {
+      "_id": "62eec1edd26c6872771b5d85",
+      "international": "Poland",
+      "country": "Poland",
+      "langCode": "EN",
+      "dbLangCode": "EN",
+      "states": [
+        "62eec4cfd26c6872771b5dc3",
+        "62eec4edd26c6872771b5dc7",
+        "62eec4fbd26c6872771b5dcb",
+        "62eec524d26c6872771b5dcf",
+        "62eec553d26c6872771b5dd3"
+      ],
+      "updatedAt": "2022-08-11T19:21:06.494Z"
+    },
+    {
+      "_id": "62eec1ffd26c6872771b5d89",
+      "international": "Germany",
+      "country": "Germany",
+      "langCode": "EN",
+      "dbLangCode": "EN",
+      "states": [
+        "62eec5abd26c6872771b5dd7",
+        "62eec5bbd26c6872771b5ddb",
+        "62eec5cfd26c6872771b5ddf",
+        "62f40683f2b4f353870fb466"
+      ],
+      "updatedAt": "2022-08-11T19:21:06.852Z"
+    },
+    {
+      "_id": "62eecad6d26c6872771b5e3d",
+      "international": "Poland",
+      "country": "Poland",
+      "langCode": "EN",
+      "dbLangCode": "UK",
+      "states": [
+        "62eec4cfd26c6872771b5dc3",
+        "62eec4edd26c6872771b5dc7",
+        "62eec4fbd26c6872771b5dcb",
+        "62eec524d26c6872771b5dcf",
+        "62eec553d26c6872771b5dd3"
+      ]
+    },
+    {
+      "_id": "62eecad6d26c6872771b5e3e",
+      "international": "Germany",
+      "country": "Germany",
+      "langCode": "EN",
+      "dbLangCode": "UK",
+      "states": ["62eec5abd26c6872771b5dd7", "62eec5bbd26c6872771b5ddb", "62eec5cfd26c6872771b5ddf"]
+    },
+    {
+      "_id": "62eecad6d26c6872771b5e40",
+      "international": "Canada",
+      "country": "Canada",
+      "langCode": "EN",
+      "dbLangCode": "UK",
+      "states": ["62eec6a2d26c6872771b5df3", "62eec6b1d26c6872771b5df7", "62eec6c6d26c6872771b5dfb"]
+    },
+    {
+      "_id": "62eecad6d26c6872771b5e3c",
+      "international": "Ukraine",
+      "country": "Ukraine",
+      "langCode": "EN",
+      "dbLangCode": "UK",
+      "states": [
+        "62eec2b8d26c6872771b5d99",
+        "62eec2d5d26c6872771b5d9d",
+        "62eec2e8d26c6872771b5da1",
+        "62eec2f4d26c6872771b5da5",
+        "62eec31bd26c6872771b5dad",
+        "62eec338d26c6872771b5db6"
+      ]
+    },
+    {
+      "_id": "62eecad6d26c6872771b5e3b",
+      "international": "USA",
+      "country": "USAUKR",
+      "langCode": "UK",
+      "dbLangCode": "UK",
+      "states": [
+        "62eec31ad26c6872771b5da9",
+        "62eec338d26c6872771b5db2",
+        "62eec3d4d26c6872771b5dbb",
+        "62eec3fad26c6872771b5dbf"
+      ]
+    },
+
+    {
+      "_id": "62f56206b27f74ad3a2b8bb3",
+      "international": "USA",
+      "country": "USA",
+      "langCode": "EN",
+      "dbLangCode": "NL",
+      "states": [
+        "62eec31ad26c6872771b5da9",
+        "62eec338d26c6872771b5db2",
+        "62eec3d4d26c6872771b5dbb",
+        "62eec3fad26c6872771b5dbf"
+      ]
+    },
+    {
+      "_id": "62f56206b27f74ad3a2b8bb4",
+      "international": "Ukraine",
+      "country": "Ukraine",
+      "langCode": "EN",
+      "dbLangCode": "NL",
+      "states": [
+        "62eec2b8d26c6872771b5d99",
+        "62eec2d5d26c6872771b5d9d",
+        "62eec2e8d26c6872771b5da1",
+        "62eec2f4d26c6872771b5da5",
+        "62eec31bd26c6872771b5dad"
+      ]
+    },
+    {
+      "_id": "62f56206b27f74ad3a2b8bb5",
+      "international": "Poland",
+      "country": "Poland",
+      "langCode": "EN",
+      "dbLangCode": "NL",
+      "states": [
+        "62eec4cfd26c6872771b5dc3",
+        "62eec4edd26c6872771b5dc7",
+        "62eec4fbd26c6872771b5dcb",
+        "62eec524d26c6872771b5dcf",
+        "62eec553d26c6872771b5dd3"
+      ]
+    },
+    {
+      "_id": "62f56206b27f74ad3a2b8bb6",
+      "international": "Germany",
+      "country": "Germany",
+      "langCode": "EN",
+      "dbLangCode": "NL",
+      "states": [
+        "62eec5abd26c6872771b5dd7",
+        "62eec5bbd26c6872771b5ddb",
+        "62eec5cfd26c6872771b5ddf",
+        "62f40683f2b4f353870fb466"
+      ]
+    },
+    {
+      "_id": "62f56206b27f74ad3a2b8bb7",
+      "international": "Canada",
+      "country": "Canada",
+      "langCode": "EN",
+      "dbLangCode": "NL",
+      "states": ["62eec6a2d26c6872771b5df3", "62eec6b1d26c6872771b5df7", "62eec6c6d26c6872771b5dfb"]
+    },
+
+    {
+      "_id": "62faa7974ff0bb2c6a0d558e",
+      "international": "USA",
+      "country": "USA",
+      "langCode": "EN",
+      "dbLangCode": "TS",
+      "states": [
+        "62faa7994ff0bb2c6a0d55b1",
+        "62faa7994ff0bb2c6a0d55b5",
+        "62faa7994ff0bb2c6a0d55bb",
+        "62faa7994ff0bb2c6a0d55c1"
+      ],
+      "createdAt": "2022-08-15T20:07:51.236Z",
+      "updatedAt": "2022-08-15T20:07:55.130Z"
+    },
+    {
+      "_id": "62faa7984ff0bb2c6a0d5598",
+      "international": "Ukraine",
+      "country": "Ukraine",
+      "langCode": "EN",
+      "dbLangCode": "TS",
+      "states": [
+        "62faa7974ff0bb2c6a0d5590",
+        "62faa7984ff0bb2c6a0d5596",
+        "62faa7994ff0bb2c6a0d559c",
+        "62faa7994ff0bb2c6a0d55a4"
+      ],
+      "createdAt": "2022-08-15T20:07:52.376Z",
+      "updatedAt": "2022-08-15T20:07:55.570Z"
+    },
+    {
+      "_id": "62faa7994ff0bb2c6a0d559a",
+      "international": "Poland",
+      "country": "Poland",
+      "langCode": "EN",
+      "dbLangCode": "TS",
+      "states": [
+        "62faa7994ff0bb2c6a0d55c5",
+        "62faa7994ff0bb2c6a0d55ca",
+        "62faa7994ff0bb2c6a0d55cf",
+        "62faa79a4ff0bb2c6a0d55d4",
+        "62faa79a4ff0bb2c6a0d55d9"
+      ],
+      "createdAt": "2022-08-15T20:07:53.445Z",
+      "updatedAt": "2022-08-15T20:07:56.089Z"
+    },
+    {
+      "_id": "62faa7994ff0bb2c6a0d55a2",
+      "international": "Germany",
+      "country": "Germany",
+      "langCode": "EN",
+      "dbLangCode": "TS",
+      "states": [
+        "62faa79a4ff0bb2c6a0d55de",
+        "62faa79a4ff0bb2c6a0d55e2",
+        "62faa79a4ff0bb2c6a0d55e6"
+      ],
+      "createdAt": "2022-08-15T20:07:53.499Z",
+      "updatedAt": "2022-08-15T20:07:56.397Z"
+    },
+    {
+      "_id": "62faa7994ff0bb2c6a0d55aa",
+      "international": "Canada",
+      "country": "Canada2",
+      "langCode": "TS",
+      "dbLangCode": "TS",
+      "states": [
+        "62faa79a4ff0bb2c6a0d55f4",
+        "62faa79a4ff0bb2c6a0d55f7",
+        "62faa79a4ff0bb2c6a0d55fa"
+      ],
+      "createdAt": "2022-08-15T20:07:53.595Z",
+      "updatedAt": "2022-08-15T20:07:56.718Z"
+    },
+    {
+      "country": "Germany",
+      "international": "Germany",
+      "langCode": "EN",
+      "dbLangCode": "EN",
+      "_id": "yzsA2_6"
+    },
+    {
+      "country": "GE2",
+      "international": "GE2",
+      "langCode": "EN",
+      "dbLangCode": "EN",
+      "_id": "Gw0BnBK"
+    },
+    {
+      "country": "Germany3EN",
+      "international": "Germany3EN",
+      "langCode": "EN",
+      "dbLangCode": "EN",
+      "_id": "dZtR6eG"
+    },
+    {
+      "country": "Germany444",
+      "international": "Germany444",
+      "langCode": "EN",
+      "dbLangCode": "EN",
+      "_id": "7wBBS7w"
+    }
+  ],
+  "location-state": [
+    {
+      "_id": "62eec3d4d26c6872771b5dbb",
+      "stateName": "Neveda State",
+      "stateInternational": "Neveda State",
+      "stateCode": "Neveda",
+      "international": "USA",
+      "langCode": "EN",
+      "dbLangCode": "EN",
+      "statePhotoURL": "https://Neveda.states.ua/photos/lviv-state.webp",
+      "countryId": "62eec1cdd26c6872771b5d7d",
+      "cities": [
+        {
+          "_id": "62eec899d26c6872771b5e16",
+          "stateId": "62eec3d4d26c6872771b5dbb",
+          "cityName": "Tonopah",
+          "cityInternational": "Tonopah",
+          "cityCode": "Tonopah",
+          "cityPhotoURL": "https://Tonopah.city.ua/photos/kyiv-city.webp",
+          "langCode": "EN",
+          "stateInternational": "Neveda State",
+          "state": "62eec3d4d26c6872771b5dbb",
+          "districts": [
+            {
+              "_id": "62eecbd0d26c6872771b5e6d",
+              "stateId": "62eec3d4d26c6872771b5dbb",
+              "cityId": "62eec899d26c6872771b5e16",
+              "districtName": "Central",
+              "districtInternational": "Central",
+              "districtCode": "CN",
+              "districtPhotoURL": "https://Central.district.ua/photos/kyiv-podil.webp",
+              "cityInternational": "Tonopah",
+              "langCode": "EN",
+              "dbLangCode": "EN"
+            }
+          ],
+          "createdAt": "2022-08-06T20:01:29.873Z",
+          "updatedAt": "2022-08-06T20:15:12.654Z",
+          "dbLangCode": "EN"
+        }
+      ],
+      "createdAt": "2022-08-06T19:41:08.799Z",
+      "updatedAt": "2022-08-06T20:01:30.409Z"
+    },
+    {
+      "_id": "62eec3fad26c6872771b5dbf",
+      "stateName": "Florida State",
+      "stateInternational": "Florida State",
+      "stateCode": "Florida",
+      "international": "USA",
+      "langCode": "EN",
+      "dbLangCode": "EN",
+      "statePhotoURL": "https://Florida.states.ua/photos/lviv-state.webp",
+      "countryId": "62eec1cdd26c6872771b5d7d",
+      "cities": [
+        {
+          "_id": "62eec8f5d26c6872771b5e1a",
+          "stateId": "62eec3fad26c6872771b5dbf",
+          "cityName": "Miami",
+          "cityInternational": "Miami",
+          "cityCode": "Miami",
+          "cityPhotoURL": "https://Miami.city.ua/photos/kyiv-city.webp",
+          "langCode": "EN",
+          "stateInternational": "Florida State",
+          "state": "62eec3fad26c6872771b5dbf",
+          "districts": [
+            {
+              "_id": "62eecb8ad26c6872771b5e69",
+              "stateId": "62eec3fad26c6872771b5dbf",
+              "cityId": "62eec8f5d26c6872771b5e1a",
+              "districtName": "Central",
+              "districtInternational": "Central",
+              "districtCode": "CN",
+              "districtPhotoURL": "https://Miami.district.ua/photos/kyiv-podil.webp",
+              "cityInternational": "Miami",
+              "langCode": "EN",
+              "dbLangCode": "EN"
+            }
+          ],
+          "createdAt": "2022-08-06T20:03:01.167Z",
+          "updatedAt": "2022-08-06T20:14:02.168Z",
+          "dbLangCode": "EN"
+        },
+        {
+          "_id": "62eec90bd26c6872771b5e1e",
+          "stateId": "62eec3fad26c6872771b5dbf",
+          "cityName": "Orlando",
+          "cityInternational": "Orlando",
+          "cityCode": "Orlando",
+          "cityPhotoURL": "https://Orlando.city.ua/photos/kyiv-city.webp",
+          "langCode": "EN",
+          "stateInternational": "Florida State",
+          "state": "62eec3fad26c6872771b5dbf",
+          "districts": [
+            {
+              "_id": "62eecc06d26c6872771b5e71",
+              "stateId": "62eec3fad26c6872771b5dbf",
+              "cityId": "62eec90bd26c6872771b5e1e",
+              "districtName": "Central",
+              "districtInternational": "Central",
+              "districtCode": "CN",
+              "districtPhotoURL": "https://Central.district.ua/photos/kyiv-podil.webp",
+              "cityInternational": "Orlando",
+              "langCode": "EN",
+              "dbLangCode": "EN"
+            }
+          ],
+          "createdAt": "2022-08-06T20:03:23.019Z",
+          "updatedAt": "2022-08-06T20:16:06.802Z",
+          "dbLangCode": "EN"
+        }
+      ],
+      "createdAt": "2022-08-06T19:41:46.890Z",
+      "updatedAt": "2022-08-06T20:03:23.073Z"
+    },
+    {
+      "_id": "62eecad7d26c6872771b5e49",
+      "stateName": "Neveda State",
+      "stateInternational": "Neveda State",
+      "stateCode": "Neveda",
+      "international": "USA",
+      "langCode": "EN",
+      "dbLangCode": "UK",
+      "statePhotoURL": "https://Neveda.states.ua/photos/lviv-state.webp",
+      "countryId": "62eec1cdd26c6872771b5d7d",
+      "cities": [
+        {
+          "_id": "62eec899d26c6872771b5e16",
+          "stateId": "62eec3d4d26c6872771b5dbb",
+          "cityName": "Tonopah",
+          "cityInternational": "Tonopah",
+          "cityCode": "Tonopah",
+          "cityPhotoURL": "https://Tonopah.city.ua/photos/kyiv-city.webp",
+          "langCode": "EN",
+          "stateInternational": "Neveda State",
+          "state": "62eec3d4d26c6872771b5dbb",
+          "districts": [
+            {
+              "_id": "62eecbd0d26c6872771b5e6d",
+              "stateId": "62eec3d4d26c6872771b5dbb",
+              "cityId": "62eec899d26c6872771b5e16",
+              "districtName": "Central",
+              "districtInternational": "Central",
+              "districtCode": "CN",
+              "districtPhotoURL": "https://Central.district.ua/photos/kyiv-podil.webp",
+              "cityInternational": "Tonopah",
+              "langCode": "EN",
+              "dbLangCode": "EN"
+            }
+          ],
+          "createdAt": "2022-08-06T20:01:29.873Z",
+          "updatedAt": "2022-08-06T20:15:12.654Z",
+          "dbLangCode": "EN"
+        }
+      ],
+      "updatedAt": "2022-08-06T20:01:30.409Z",
+      "createdAt": "2022-08-06T19:41:08.799Z"
+    },
+    {
+      "_id": "62eecad7d26c6872771b5e4a",
+      "stateName": "Florida State",
+      "stateInternational": "Florida State",
+      "stateCode": "Florida",
+      "international": "USA",
+      "langCode": "EN",
+      "dbLangCode": "UK",
+      "statePhotoURL": "https://Florida.states.ua/photos/lviv-state.webp",
+      "countryId": "62eec1cdd26c6872771b5d7d",
+      "cities": [
+        {
+          "_id": "62eec8f5d26c6872771b5e1a",
+          "stateId": "62eec3fad26c6872771b5dbf",
+          "cityName": "Miami",
+          "cityInternational": "Miami",
+          "cityCode": "Miami",
+          "cityPhotoURL": "https://Miami.city.ua/photos/kyiv-city.webp",
+          "langCode": "EN",
+          "stateInternational": "Florida State",
+          "state": "62eec3fad26c6872771b5dbf",
+          "districts": [
+            {
+              "_id": "62eecb8ad26c6872771b5e69",
+              "stateId": "62eec3fad26c6872771b5dbf",
+              "cityId": "62eec8f5d26c6872771b5e1a",
+              "districtName": "Central",
+              "districtInternational": "Central",
+              "districtCode": "CN",
+              "districtPhotoURL": "https://Miami.district.ua/photos/kyiv-podil.webp",
+              "cityInternational": "Miami",
+              "langCode": "EN",
+              "dbLangCode": "EN"
+            }
+          ],
+          "createdAt": "2022-08-06T20:03:01.167Z",
+          "updatedAt": "2022-08-06T20:14:02.168Z",
+          "dbLangCode": "EN"
+        },
+        {
+          "_id": "62eec90bd26c6872771b5e1e",
+          "stateId": "62eec3fad26c6872771b5dbf",
+          "cityName": "Orlando",
+          "cityInternational": "Orlando",
+          "cityCode": "Orlando",
+          "cityPhotoURL": "https://Orlando.city.ua/photos/kyiv-city.webp",
+          "langCode": "EN",
+          "stateInternational": "Florida State",
+          "state": "62eec3fad26c6872771b5dbf",
+          "districts": [
+            {
+              "_id": "62eecc06d26c6872771b5e71",
+              "stateId": "62eec3fad26c6872771b5dbf",
+              "cityId": "62eec90bd26c6872771b5e1e",
+              "districtName": "Central",
+              "districtInternational": "Central",
+              "districtCode": "CN",
+              "districtPhotoURL": "https://Central.district.ua/photos/kyiv-podil.webp",
+              "cityInternational": "Orlando",
+              "langCode": "EN",
+              "dbLangCode": "EN"
+            }
+          ],
+          "createdAt": "2022-08-06T20:03:23.019Z",
+          "updatedAt": "2022-08-06T20:16:06.802Z",
+          "dbLangCode": "EN"
+        }
+      ],
+      "updatedAt": "2022-08-06T20:03:23.073Z",
+      "createdAt": "2022-08-06T19:41:46.890Z"
+    },
+    {
+      "_id": "62f2b608bf938ee9f52f1c4d",
+      "stateName": "Florida State",
+      "stateInternational": "Florida State",
+      "stateCode": "Florida",
+      "international": "USA",
+      "langCode": "EN",
+      "dbLangCode": "RU",
+      "statePhotoURL": "https://Florida.states.ua/photos/lviv-state.webp",
+      "countryId": "62eec1cdd26c6872771b5d7d",
+      "cities": [
+        {
+          "_id": "62eec8f5d26c6872771b5e1a",
+          "stateId": "62eec3fad26c6872771b5dbf",
+          "cityName": "Miami",
+          "cityInternational": "Miami",
+          "cityCode": "Miami",
+          "cityPhotoURL": "https://Miami.city.ua/photos/kyiv-city.webp",
+          "langCode": "EN",
+          "stateInternational": "Florida State",
+          "state": "62eec3fad26c6872771b5dbf",
+          "districts": [
+            {
+              "_id": "62eecb8ad26c6872771b5e69",
+              "stateId": "62eec3fad26c6872771b5dbf",
+              "cityId": "62eec8f5d26c6872771b5e1a",
+              "districtName": "Central",
+              "districtInternational": "Central",
+              "districtCode": "CN",
+              "districtPhotoURL": "https://Miami.district.ua/photos/kyiv-podil.webp",
+              "cityInternational": "Miami",
+              "langCode": "EN",
+              "dbLangCode": "EN"
+            }
+          ],
+          "createdAt": "2022-08-06T20:03:01.167Z",
+          "updatedAt": "2022-08-06T20:14:02.168Z",
+          "dbLangCode": "EN"
+        },
+        {
+          "_id": "62eec90bd26c6872771b5e1e",
+          "stateId": "62eec3fad26c6872771b5dbf",
+          "cityName": "Orlando",
+          "cityInternational": "Orlando",
+          "cityCode": "Orlando",
+          "cityPhotoURL": "https://Orlando.city.ua/photos/kyiv-city.webp",
+          "langCode": "EN",
+          "stateInternational": "Florida State",
+          "state": "62eec3fad26c6872771b5dbf",
+          "districts": [
+            {
+              "_id": "62eecc06d26c6872771b5e71",
+              "stateId": "62eec3fad26c6872771b5dbf",
+              "cityId": "62eec90bd26c6872771b5e1e",
+              "districtName": "Central",
+              "districtInternational": "Central",
+              "districtCode": "CN",
+              "districtPhotoURL": "https://Central.district.ua/photos/kyiv-podil.webp",
+              "cityInternational": "Orlando",
+              "langCode": "EN",
+              "dbLangCode": "EN"
+            }
+          ],
+          "createdAt": "2022-08-06T20:03:23.019Z",
+          "updatedAt": "2022-08-06T20:16:06.802Z",
+          "dbLangCode": "EN"
+        }
+      ],
+      "updatedAt": "2022-08-06T20:03:23.073Z",
+      "createdAt": "2022-08-06T19:41:46.890Z"
+    },
+    {
+      "_id": "62f2b608bf938ee9f52f1c4c",
+      "stateName": "Neveda State",
+      "stateInternational": "Neveda State",
+      "stateCode": "Neveda",
+      "international": "USA",
+      "langCode": "EN",
+      "dbLangCode": "RU",
+      "statePhotoURL": "https://Neveda.states.ua/photos/lviv-state.webp",
+      "countryId": "62eec1cdd26c6872771b5d7d",
+      "cities": [
+        {
+          "_id": "62eec899d26c6872771b5e16",
+          "stateId": "62eec3d4d26c6872771b5dbb",
+          "cityName": "Tonopah",
+          "cityInternational": "Tonopah",
+          "cityCode": "Tonopah",
+          "cityPhotoURL": "https://Tonopah.city.ua/photos/kyiv-city.webp",
+          "langCode": "EN",
+          "stateInternational": "Neveda State",
+          "state": "62eec3d4d26c6872771b5dbb",
+          "districts": [
+            {
+              "_id": "62eecbd0d26c6872771b5e6d",
+              "stateId": "62eec3d4d26c6872771b5dbb",
+              "cityId": "62eec899d26c6872771b5e16",
+              "districtName": "Central",
+              "districtInternational": "Central",
+              "districtCode": "CN",
+              "districtPhotoURL": "https://Central.district.ua/photos/kyiv-podil.webp",
+              "cityInternational": "Tonopah",
+              "langCode": "EN",
+              "dbLangCode": "EN"
+            }
+          ],
+          "createdAt": "2022-08-06T20:01:29.873Z",
+          "updatedAt": "2022-08-06T20:15:12.654Z",
+          "dbLangCode": "EN"
+        }
+      ],
+      "updatedAt": "2022-08-06T20:01:30.409Z",
+      "createdAt": "2022-08-06T19:41:08.799Z"
+    },
+    {
+      "_id": "62f2b9acbf938ee9f52f1c97",
+      "stateName": "Neveda State",
+      "stateInternational": "Neveda State",
+      "stateCode": "Neveda",
+      "international": "USA",
+      "langCode": "EN",
+      "dbLangCode": "PL",
+      "statePhotoURL": "https://Neveda.states.ua/photos/lviv-state.webp",
+      "countryId": "62eec1cdd26c6872771b5d7d",
+      "cities": [
+        {
+          "_id": "62eec899d26c6872771b5e16",
+          "stateId": "62eec3d4d26c6872771b5dbb",
+          "cityName": "Tonopah",
+          "cityInternational": "Tonopah",
+          "cityCode": "Tonopah",
+          "cityPhotoURL": "https://Tonopah.city.ua/photos/kyiv-city.webp",
+          "langCode": "EN",
+          "stateInternational": "Neveda State",
+          "state": "62eec3d4d26c6872771b5dbb",
+          "districts": [
+            {
+              "_id": "62eecbd0d26c6872771b5e6d",
+              "stateId": "62eec3d4d26c6872771b5dbb",
+              "cityId": "62eec899d26c6872771b5e16",
+              "districtName": "Central",
+              "districtInternational": "Central",
+              "districtCode": "CN",
+              "districtPhotoURL": "https://Central.district.ua/photos/kyiv-podil.webp",
+              "cityInternational": "Tonopah",
+              "langCode": "EN",
+              "dbLangCode": "EN"
+            }
+          ],
+          "createdAt": "2022-08-06T20:01:29.873Z",
+          "updatedAt": "2022-08-06T20:15:12.654Z",
+          "dbLangCode": "EN"
+        }
+      ],
+      "updatedAt": "2022-08-06T20:01:30.409Z",
+      "createdAt": "2022-08-06T19:41:08.799Z"
+    },
+    {
+      "_id": "62f2b9acbf938ee9f52f1c98",
+      "stateName": "Florida State",
+      "stateInternational": "Florida State",
+      "stateCode": "Florida",
+      "international": "USA",
+      "langCode": "EN",
+      "dbLangCode": "PL",
+      "statePhotoURL": "https://Florida.states.ua/photos/lviv-state.webp",
+      "countryId": "62eec1cdd26c6872771b5d7d",
+      "cities": [
+        {
+          "_id": "62eec8f5d26c6872771b5e1a",
+          "stateId": "62eec3fad26c6872771b5dbf",
+          "cityName": "Miami",
+          "cityInternational": "Miami",
+          "cityCode": "Miami",
+          "cityPhotoURL": "https://Miami.city.ua/photos/kyiv-city.webp",
+          "langCode": "EN",
+          "stateInternational": "Florida State",
+          "state": "62eec3fad26c6872771b5dbf",
+          "districts": [
+            {
+              "_id": "62eecb8ad26c6872771b5e69",
+              "stateId": "62eec3fad26c6872771b5dbf",
+              "cityId": "62eec8f5d26c6872771b5e1a",
+              "districtName": "Central",
+              "districtInternational": "Central",
+              "districtCode": "CN",
+              "districtPhotoURL": "https://Miami.district.ua/photos/kyiv-podil.webp",
+              "cityInternational": "Miami",
+              "langCode": "EN",
+              "dbLangCode": "EN"
+            }
+          ],
+          "createdAt": "2022-08-06T20:03:01.167Z",
+          "updatedAt": "2022-08-06T20:14:02.168Z",
+          "dbLangCode": "EN"
+        },
+        {
+          "_id": "62eec90bd26c6872771b5e1e",
+          "stateId": "62eec3fad26c6872771b5dbf",
+          "cityName": "Orlando",
+          "cityInternational": "Orlando",
+          "cityCode": "Orlando",
+          "cityPhotoURL": "https://Orlando.city.ua/photos/kyiv-city.webp",
+          "langCode": "EN",
+          "stateInternational": "Florida State",
+          "state": "62eec3fad26c6872771b5dbf",
+          "districts": [
+            {
+              "_id": "62eecc06d26c6872771b5e71",
+              "stateId": "62eec3fad26c6872771b5dbf",
+              "cityId": "62eec90bd26c6872771b5e1e",
+              "districtName": "Central",
+              "districtInternational": "Central",
+              "districtCode": "CN",
+              "districtPhotoURL": "https://Central.district.ua/photos/kyiv-podil.webp",
+              "cityInternational": "Orlando",
+              "langCode": "EN",
+              "dbLangCode": "EN"
+            }
+          ],
+          "createdAt": "2022-08-06T20:03:23.019Z",
+          "updatedAt": "2022-08-06T20:16:06.802Z",
+          "dbLangCode": "EN"
+        }
+      ],
+      "updatedAt": "2022-08-06T20:03:23.073Z",
+      "createdAt": "2022-08-06T19:41:46.890Z"
+    },
+    {
+      "_id": "62f2bb248455b759142b28b8",
+      "stateName": "Neveda State",
+      "stateInternational": "Neveda State",
+      "stateCode": "Neveda",
+      "international": "USA",
+      "langCode": "EN",
+      "dbLangCode": "FR",
+      "statePhotoURL": "https://Neveda.states.ua/photos/lviv-state.webp",
+      "countryId": "62eec1cdd26c6872771b5d7d",
+      "cities": [
+        {
+          "_id": "62eec899d26c6872771b5e16",
+          "stateId": "62eec3d4d26c6872771b5dbb",
+          "cityName": "Tonopah",
+          "cityInternational": "Tonopah",
+          "cityCode": "Tonopah",
+          "cityPhotoURL": "https://Tonopah.city.ua/photos/kyiv-city.webp",
+          "langCode": "EN",
+          "stateInternational": "Neveda State",
+          "state": "62eec3d4d26c6872771b5dbb",
+          "districts": [
+            {
+              "_id": "62eecbd0d26c6872771b5e6d",
+              "stateId": "62eec3d4d26c6872771b5dbb",
+              "cityId": "62eec899d26c6872771b5e16",
+              "districtName": "Central",
+              "districtInternational": "Central",
+              "districtCode": "CN",
+              "districtPhotoURL": "https://Central.district.ua/photos/kyiv-podil.webp",
+              "cityInternational": "Tonopah",
+              "langCode": "EN",
+              "dbLangCode": "EN"
+            }
+          ],
+          "createdAt": "2022-08-06T20:01:29.873Z",
+          "updatedAt": "2022-08-06T20:15:12.654Z",
+          "dbLangCode": "EN"
+        }
+      ],
+      "updatedAt": "2022-08-06T20:01:30.409Z",
+      "createdAt": "2022-08-06T19:41:08.799Z"
+    },
+    {
+      "_id": "62f2bb248455b759142b28b9",
+      "stateName": "Florida State",
+      "stateInternational": "Florida State",
+      "stateCode": "Florida",
+      "international": "USA",
+      "langCode": "EN",
+      "dbLangCode": "FR",
+      "statePhotoURL": "https://Florida.states.ua/photos/lviv-state.webp",
+      "countryId": "62eec1cdd26c6872771b5d7d",
+      "cities": [
+        {
+          "_id": "62eec8f5d26c6872771b5e1a",
+          "stateId": "62eec3fad26c6872771b5dbf",
+          "cityName": "Miami",
+          "cityInternational": "Miami",
+          "cityCode": "Miami",
+          "cityPhotoURL": "https://Miami.city.ua/photos/kyiv-city.webp",
+          "langCode": "EN",
+          "stateInternational": "Florida State",
+          "state": "62eec3fad26c6872771b5dbf",
+          "districts": [
+            {
+              "_id": "62eecb8ad26c6872771b5e69",
+              "stateId": "62eec3fad26c6872771b5dbf",
+              "cityId": "62eec8f5d26c6872771b5e1a",
+              "districtName": "Central",
+              "districtInternational": "Central",
+              "districtCode": "CN",
+              "districtPhotoURL": "https://Miami.district.ua/photos/kyiv-podil.webp",
+              "cityInternational": "Miami",
+              "langCode": "EN",
+              "dbLangCode": "EN"
+            }
+          ],
+          "createdAt": "2022-08-06T20:03:01.167Z",
+          "updatedAt": "2022-08-06T20:14:02.168Z",
+          "dbLangCode": "EN"
+        },
+        {
+          "_id": "62eec90bd26c6872771b5e1e",
+          "stateId": "62eec3fad26c6872771b5dbf",
+          "cityName": "Orlando",
+          "cityInternational": "Orlando",
+          "cityCode": "Orlando",
+          "cityPhotoURL": "https://Orlando.city.ua/photos/kyiv-city.webp",
+          "langCode": "EN",
+          "stateInternational": "Florida State",
+          "state": "62eec3fad26c6872771b5dbf",
+          "districts": [
+            {
+              "_id": "62eecc06d26c6872771b5e71",
+              "stateId": "62eec3fad26c6872771b5dbf",
+              "cityId": "62eec90bd26c6872771b5e1e",
+              "districtName": "Central",
+              "districtInternational": "Central",
+              "districtCode": "CN",
+              "districtPhotoURL": "https://Central.district.ua/photos/kyiv-podil.webp",
+              "cityInternational": "Orlando",
+              "langCode": "EN",
+              "dbLangCode": "EN"
+            }
+          ],
+          "createdAt": "2022-08-06T20:03:23.019Z",
+          "updatedAt": "2022-08-06T20:16:06.802Z",
+          "dbLangCode": "EN"
+        }
+      ],
+      "updatedAt": "2022-08-06T20:03:23.073Z",
+      "createdAt": "2022-08-06T19:41:46.890Z"
+    },
+    {
+      "_id": "62f56206b27f74ad3a2b8bc1",
+      "stateName": "Neveda State",
+      "stateInternational": "Neveda State",
+      "stateCode": "Neveda",
+      "international": "USA",
+      "langCode": "EN",
+      "dbLangCode": "NL",
+      "statePhotoURL": "https://Neveda.states.ua/photos/lviv-state.webp",
+      "countryId": "62eec1cdd26c6872771b5d7d",
+      "cities": [
+        {
+          "_id": "62eec899d26c6872771b5e16",
+          "stateId": "62eec3d4d26c6872771b5dbb",
+          "cityName": "Tonopah",
+          "cityInternational": "Tonopah",
+          "cityCode": "Tonopah",
+          "cityPhotoURL": "https://Tonopah.city.ua/photos/kyiv-city.webp",
+          "langCode": "EN",
+          "stateInternational": "Neveda State",
+          "state": "62eec3d4d26c6872771b5dbb",
+          "districts": [
+            {
+              "_id": "62eecbd0d26c6872771b5e6d",
+              "stateId": "62eec3d4d26c6872771b5dbb",
+              "cityId": "62eec899d26c6872771b5e16",
+              "districtName": "Central",
+              "districtInternational": "Central",
+              "districtCode": "CN",
+              "districtPhotoURL": "https://Central.district.ua/photos/kyiv-podil.webp",
+              "cityInternational": "Tonopah",
+              "langCode": "EN",
+              "dbLangCode": "EN"
+            }
+          ],
+          "createdAt": "2022-08-06T20:01:29.873Z",
+          "updatedAt": "2022-08-06T20:15:12.654Z",
+          "dbLangCode": "EN"
+        }
+      ],
+      "updatedAt": "2022-08-06T20:01:30.409Z",
+      "createdAt": "2022-08-06T19:41:08.799Z"
+    },
+    {
+      "_id": "62f56206b27f74ad3a2b8bc2",
+      "stateName": "Florida State",
+      "stateInternational": "Florida State",
+      "stateCode": "Florida",
+      "international": "USA",
+      "langCode": "EN",
+      "dbLangCode": "NL",
+      "statePhotoURL": "https://Florida.states.ua/photos/lviv-state.webp",
+      "countryId": "62eec1cdd26c6872771b5d7d",
+      "cities": [
+        {
+          "_id": "62eec8f5d26c6872771b5e1a",
+          "stateId": "62eec3fad26c6872771b5dbf",
+          "cityName": "Miami",
+          "cityInternational": "Miami",
+          "cityCode": "Miami",
+          "cityPhotoURL": "https://Miami.city.ua/photos/kyiv-city.webp",
+          "langCode": "EN",
+          "stateInternational": "Florida State",
+          "state": "62eec3fad26c6872771b5dbf",
+          "districts": [
+            {
+              "_id": "62eecb8ad26c6872771b5e69",
+              "stateId": "62eec3fad26c6872771b5dbf",
+              "cityId": "62eec8f5d26c6872771b5e1a",
+              "districtName": "Central",
+              "districtInternational": "Central",
+              "districtCode": "CN",
+              "districtPhotoURL": "https://Miami.district.ua/photos/kyiv-podil.webp",
+              "cityInternational": "Miami",
+              "langCode": "EN",
+              "dbLangCode": "EN"
+            }
+          ],
+          "createdAt": "2022-08-06T20:03:01.167Z",
+          "updatedAt": "2022-08-06T20:14:02.168Z",
+          "dbLangCode": "EN"
+        },
+        {
+          "_id": "62eec90bd26c6872771b5e1e",
+          "stateId": "62eec3fad26c6872771b5dbf",
+          "cityName": "Orlando",
+          "cityInternational": "Orlando",
+          "cityCode": "Orlando",
+          "cityPhotoURL": "https://Orlando.city.ua/photos/kyiv-city.webp",
+          "langCode": "EN",
+          "stateInternational": "Florida State",
+          "state": "62eec3fad26c6872771b5dbf",
+          "districts": [
+            {
+              "_id": "62eecc06d26c6872771b5e71",
+              "stateId": "62eec3fad26c6872771b5dbf",
+              "cityId": "62eec90bd26c6872771b5e1e",
+              "districtName": "Central",
+              "districtInternational": "Central",
+              "districtCode": "CN",
+              "districtPhotoURL": "https://Central.district.ua/photos/kyiv-podil.webp",
+              "cityInternational": "Orlando",
+              "langCode": "EN",
+              "dbLangCode": "EN"
+            }
+          ],
+          "createdAt": "2022-08-06T20:03:23.019Z",
+          "updatedAt": "2022-08-06T20:16:06.802Z",
+          "dbLangCode": "EN"
+        }
+      ],
+      "updatedAt": "2022-08-06T20:03:23.073Z",
+      "createdAt": "2022-08-06T19:41:46.890Z"
+    },
+    {
+      "_id": "62faa7994ff0bb2c6a0d55bb",
+      "stateName": "Neveda State",
+      "stateInternational": "Neveda State",
+      "stateCode": "Neveda",
+      "international": "USA",
+      "langCode": "EN",
+      "dbLangCode": "TS",
+      "statePhotoURL": "https://Neveda.states.ua/photos/lviv-state.webp",
+      "countryId": "62faa7974ff0bb2c6a0d558e",
+      "cities": [
+        {
+          "_id": "62faa7994ff0bb2c6a0d55bd",
+          "stateId": "62faa7994ff0bb2c6a0d55bb",
+          "cityName": "Tonopah",
+          "cityInternational": "Tonopah",
+          "cityCode": "Tonopah",
+          "cityPhotoURL": "https://Tonopah.city.ua/photos/kyiv-city.webp",
+          "langCode": "EN",
+          "dbLangCode": "TS",
+          "stateInternational": "Neveda State",
+          "state": "62faa7994ff0bb2c6a0d55bb",
+          "districts": [
+            {
+              "_id": "62eecbd0d26c6872771b5e6d",
+              "stateId": "62eec3d4d26c6872771b5dbb",
+              "cityId": "62eec899d26c6872771b5e16",
+              "districtName": "Central",
+              "districtInternational": "Central",
+              "districtCode": "CN",
+              "districtPhotoURL": "https://Central.district.ua/photos/kyiv-podil.webp",
+              "cityInternational": "Tonopah",
+              "langCode": "EN",
+              "dbLangCode": "EN"
+            }
+          ],
+          "updatedAt": "2022-08-15T20:07:55.017Z",
+          "createdAt": "2022-08-06T20:01:29.873Z"
+        }
+      ],
+      "updatedAt": "2022-08-15T20:07:56.417Z",
+      "createdAt": "2022-08-06T19:41:08.799Z"
+    },
+    {
+      "_id": "62faa7994ff0bb2c6a0d55c1",
+      "stateName": "Florida State",
+      "stateInternational": "Florida State",
+      "stateCode": "Florida",
+      "international": "USA",
+      "langCode": "EN",
+      "dbLangCode": "TS",
+      "statePhotoURL": "https://Florida.states.ua/photos/lviv-state.webp",
+      "countryId": "62faa7974ff0bb2c6a0d558e",
+      "cities": [
+        {
+          "_id": "62faa7994ff0bb2c6a0d55c3",
+          "stateId": "62faa7994ff0bb2c6a0d55c1",
+          "cityName": "Miami",
+          "cityInternational": "Miami",
+          "cityCode": "Miami",
+          "cityPhotoURL": "https://Miami.city.ua/photos/kyiv-city.webp",
+          "langCode": "EN",
+          "dbLangCode": "TS",
+          "stateInternational": "Florida State",
+          "state": "62faa7994ff0bb2c6a0d55c1",
+          "districts": [
+            {
+              "_id": "62eecb8ad26c6872771b5e69",
+              "stateId": "62eec3fad26c6872771b5dbf",
+              "cityId": "62eec8f5d26c6872771b5e1a",
+              "districtName": "Central",
+              "districtInternational": "Central",
+              "districtCode": "CN",
+              "districtPhotoURL": "https://Miami.district.ua/photos/kyiv-podil.webp",
+              "cityInternational": "Miami",
+              "langCode": "EN",
+              "dbLangCode": "EN"
+            }
+          ],
+          "updatedAt": "2022-08-15T20:07:55.126Z",
+          "createdAt": "2022-08-06T20:03:01.167Z"
+        },
+        {
+          "_id": "62faa7994ff0bb2c6a0d55c8",
+          "stateId": "62faa7994ff0bb2c6a0d55c1",
+          "cityName": "Orlando",
+          "cityInternational": "Orlando",
+          "cityCode": "Orlando",
+          "cityPhotoURL": "https://Orlando.city.ua/photos/kyiv-city.webp",
+          "langCode": "EN",
+          "dbLangCode": "TS",
+          "stateInternational": "Florida State",
+          "state": "62faa7994ff0bb2c6a0d55c1",
+          "districts": [
+            {
+              "_id": "62eecc06d26c6872771b5e71",
+              "stateId": "62eec3fad26c6872771b5dbf",
+              "cityId": "62eec90bd26c6872771b5e1e",
+              "districtName": "Central",
+              "districtInternational": "Central",
+              "districtCode": "CN",
+              "districtPhotoURL": "https://Central.district.ua/photos/kyiv-podil.webp",
+              "cityInternational": "Orlando",
+              "langCode": "EN",
+              "dbLangCode": "EN"
+            }
+          ],
+          "updatedAt": "2022-08-15T20:07:55.126Z",
+          "createdAt": "2022-08-06T20:03:23.019Z"
+        }
+      ],
+      "updatedAt": "2022-08-15T20:07:56.610Z",
+      "createdAt": "2022-08-06T19:41:46.890Z"
+    }
+  ],
+  "location-city": [
+    {
+      "_id": "62eec899d26c6872771b5e16",
+      "stateId": "62eec3d4d26c6872771b5dbb",
+      "cityName": "Tonopah",
+      "cityInternational": "Tonopah",
+      "cityCode": "Tonopah",
+      "cityPhotoURL": "https://Tonopah.city.ua/photos/kyiv-city.webp",
+      "langCode": "EN",
+      "stateInternational": "Neveda State",
+      "state": "62eec3d4d26c6872771b5dbb",
+      "districts": [
+        {
+          "_id": "62eecbd0d26c6872771b5e6d",
+          "stateId": "62eec3d4d26c6872771b5dbb",
+          "cityId": "62eec899d26c6872771b5e16",
+          "districtName": "Central",
+          "districtInternational": "Central",
+          "districtCode": "CN",
+          "districtPhotoURL": "https://Central.district.ua/photos/kyiv-podil.webp",
+          "cityInternational": "Tonopah",
+          "langCode": "EN",
+          "dbLangCode": "EN"
+        }
+      ],
+      "createdAt": "2022-08-06T20:01:29.873Z",
+      "updatedAt": "2022-08-06T20:15:12.654Z",
+      "dbLangCode": "EN"
+    },
+    {
+      "_id": "62eec8f5d26c6872771b5e1a",
+      "stateId": "62eec3fad26c6872771b5dbf",
+      "cityName": "Miami",
+      "cityInternational": "Miami",
+      "cityCode": "Miami",
+      "cityPhotoURL": "https://Miami.city.ua/photos/kyiv-city.webp",
+      "langCode": "EN",
+      "stateInternational": "Florida State",
+      "state": "62eec3fad26c6872771b5dbf",
+      "districts": [
+        {
+          "_id": "62eecb8ad26c6872771b5e69",
+          "stateId": "62eec3fad26c6872771b5dbf",
+          "cityId": "62eec8f5d26c6872771b5e1a",
+          "districtName": "Central",
+          "districtInternational": "Central",
+          "districtCode": "CN",
+          "districtPhotoURL": "https://Miami.district.ua/photos/kyiv-podil.webp",
+          "cityInternational": "Miami",
+          "langCode": "EN",
+          "dbLangCode": "EN"
+        }
+      ],
+      "createdAt": "2022-08-06T20:03:01.167Z",
+      "updatedAt": "2022-08-06T20:14:02.168Z",
+      "dbLangCode": "EN"
+    },
+    {
+      "_id": "62eec90bd26c6872771b5e1e",
+      "stateId": "62eec3fad26c6872771b5dbf",
+      "cityName": "Orlando",
+      "cityInternational": "Orlando",
+      "cityCode": "Orlando",
+      "cityPhotoURL": "https://Orlando.city.ua/photos/kyiv-city.webp",
+      "langCode": "EN",
+      "stateInternational": "Florida State",
+      "state": "62eec3fad26c6872771b5dbf",
+      "districts": [
+        {
+          "_id": "62eecc06d26c6872771b5e71",
+          "stateId": "62eec3fad26c6872771b5dbf",
+          "cityId": "62eec90bd26c6872771b5e1e",
+          "districtName": "Central",
+          "districtInternational": "Central",
+          "districtCode": "CN",
+          "districtPhotoURL": "https://Central.district.ua/photos/kyiv-podil.webp",
+          "cityInternational": "Orlando",
+          "langCode": "EN",
+          "dbLangCode": "EN"
+        }
+      ],
+      "createdAt": "2022-08-06T20:03:23.019Z",
+      "updatedAt": "2022-08-06T20:16:06.802Z",
+      "dbLangCode": "EN"
+    },
+    {
+      "_id": "62faa7994ff0bb2c6a0d55bd",
+      "stateId": "62faa7994ff0bb2c6a0d55bb",
+      "cityName": "Tonopah",
+      "cityInternational": "Tonopah",
+      "cityCode": "Tonopah",
+      "cityPhotoURL": "https://Tonopah.city.ua/photos/kyiv-city.webp",
+      "langCode": "EN",
+      "dbLangCode": "TS",
+      "stateInternational": "Neveda State",
+      "state": "62faa7994ff0bb2c6a0d55bb",
+      "districts": [
+        {
+          "_id": "62eecbd0d26c6872771b5e6d",
+          "stateId": "62eec3d4d26c6872771b5dbb",
+          "cityId": "62eec899d26c6872771b5e16",
+          "districtName": "Central",
+          "districtInternational": "Central",
+          "districtCode": "CN",
+          "districtPhotoURL": "https://Central.district.ua/photos/kyiv-podil.webp",
+          "cityInternational": "Tonopah",
+          "langCode": "EN",
+          "dbLangCode": "EN"
+        }
+      ],
+      "updatedAt": "2022-08-15T20:07:55.017Z",
+      "createdAt": "2022-08-06T20:01:29.873Z"
+    },
+    {
+      "_id": "62faa7994ff0bb2c6a0d55c3",
+      "stateId": "62faa7994ff0bb2c6a0d55c1",
+      "cityName": "Miami",
+      "cityInternational": "Miami",
+      "cityCode": "Miami",
+      "cityPhotoURL": "https://Miami.city.ua/photos/kyiv-city.webp",
+      "langCode": "EN",
+      "dbLangCode": "TS",
+      "stateInternational": "Florida State",
+      "state": "62faa7994ff0bb2c6a0d55c1",
+      "districts": [
+        {
+          "_id": "62eecb8ad26c6872771b5e69",
+          "stateId": "62eec3fad26c6872771b5dbf",
+          "cityId": "62eec8f5d26c6872771b5e1a",
+          "districtName": "Central",
+          "districtInternational": "Central",
+          "districtCode": "CN",
+          "districtPhotoURL": "https://Miami.district.ua/photos/kyiv-podil.webp",
+          "cityInternational": "Miami",
+          "langCode": "EN",
+          "dbLangCode": "EN"
+        }
+      ],
+      "updatedAt": "2022-08-15T20:07:55.126Z",
+      "createdAt": "2022-08-06T20:03:01.167Z"
+    },
+    {
+      "_id": "62faa7994ff0bb2c6a0d55c8",
+      "stateId": "62faa7994ff0bb2c6a0d55c1",
+      "cityName": "Orlando",
+      "cityInternational": "Orlando",
+      "cityCode": "Orlando",
+      "cityPhotoURL": "https://Orlando.city.ua/photos/kyiv-city.webp",
+      "langCode": "EN",
+      "dbLangCode": "TS",
+      "stateInternational": "Florida State",
+      "state": "62faa7994ff0bb2c6a0d55c1",
+      "districts": [
+        {
+          "_id": "62eecc06d26c6872771b5e71",
+          "stateId": "62eec3fad26c6872771b5dbf",
+          "cityId": "62eec90bd26c6872771b5e1e",
+          "districtName": "Central",
+          "districtInternational": "Central",
+          "districtCode": "CN",
+          "districtPhotoURL": "https://Central.district.ua/photos/kyiv-podil.webp",
+          "cityInternational": "Orlando",
+          "langCode": "EN",
+          "dbLangCode": "EN"
+        }
+      ],
+      "updatedAt": "2022-08-15T20:07:55.126Z",
+      "createdAt": "2022-08-06T20:03:23.019Z"
+    }
+  ],
+  "location-district": [
+    {
+      "_id": "62eecb8ad26c6872771b5e69",
+      "stateId": "62eec3fad26c6872771b5dbf",
+      "cityId": "62eec8f5d26c6872771b5e1a",
+      "districtName": "Central",
+      "districtInternational": "Central",
+      "districtCode": "CN",
+      "districtPhotoURL": "https://Miami.district.ua/photos/kyiv-podil.webp",
+      "cityInternational": "Miami",
+      "langCode": "EN",
+      "dbLangCode": "EN"
+    },
+    {
+      "_id": "62eecbd0d26c6872771b5e6d",
+      "stateId": "62eec3d4d26c6872771b5dbb",
+      "cityId": "62eec899d26c6872771b5e16",
+      "districtName": "Central",
+      "districtInternational": "Central",
+      "districtCode": "CN",
+      "districtPhotoURL": "https://Central.district.ua/photos/kyiv-podil.webp",
+      "cityInternational": "Tonopah",
+      "langCode": "EN",
+      "dbLangCode": "EN"
+    },
+    {
+      "_id": "62eecc06d26c6872771b5e71",
+      "stateId": "62eec3fad26c6872771b5dbf",
+      "cityId": "62eec90bd26c6872771b5e1e",
+      "districtName": "Central",
+      "districtInternational": "Central",
+      "districtCode": "CN",
+      "districtPhotoURL": "https://Central.district.ua/photos/kyiv-podil.webp",
+      "cityInternational": "Orlando",
+      "langCode": "EN",
+      "dbLangCode": "EN"
+    },
+    {
+      "_id": "62faa7984ff0bb2c6a0d5594",
+      "stateId": "62eec3fad26c6872771b5dbf",
+      "cityId": "62eec8f5d26c6872771b5e1a",
+      "districtName": "Central",
+      "districtInternational": "Central",
+      "districtCode": "CN",
+      "districtPhotoURL": "https://Miami.district.ua/photos/kyiv-podil.webp",
+      "cityInternational": "Miami",
+      "langCode": "EN",
+      "dbLangCode": "TS",
+      "createdAt": "2022-08-15T20:07:52.346Z",
+      "updatedAt": "2022-08-15T20:07:52.346Z"
+    },
+    {
+      "_id": "62faa7994ff0bb2c6a0d55a0",
+      "stateId": "62eec3d4d26c6872771b5dbb",
+      "cityId": "62eec899d26c6872771b5e16",
+      "districtName": "Central",
+      "districtInternational": "Central",
+      "districtCode": "CN",
+      "districtPhotoURL": "https://Central.district.ua/photos/kyiv-podil.webp",
+      "cityInternational": "Tonopah",
+      "langCode": "EN",
+      "dbLangCode": "TS",
+      "createdAt": "2022-08-15T20:07:53.460Z",
+      "updatedAt": "2022-08-15T20:07:53.460Z"
+    },
+    {
+      "_id": "62faa7994ff0bb2c6a0d55a6",
+      "stateId": "62eec3fad26c6872771b5dbf",
+      "cityId": "62eec90bd26c6872771b5e1e",
+      "districtName": "Central",
+      "districtInternational": "Central",
+      "districtCode": "CN",
+      "districtPhotoURL": "https://Central.district.ua/photos/kyiv-podil.webp",
+      "cityInternational": "Orlando",
+      "langCode": "EN",
+      "dbLangCode": "TS",
+      "createdAt": "2022-08-15T20:07:53.588Z",
+      "updatedAt": "2022-08-15T20:07:53.588Z"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  // POST 'api/location-district'
+  "ADD one district": {
+    "status": "success",
+    "message": "district created and added to all languages",
+    "code": 201,
+    "data": {
+      "distric": {
+        "stateId": "6308fdcabd704fd2cd1f63ba",
+        "cityId": "63090682bd704fd2cd1f63d0",
+        "districtName": "Zamostianskyi District",
+        "districtInternational": "Zamostianskyi District",
+        "districtCode": "ZAMOS",
+        "cityInternational": "Kyiv",
+        "langCode": "EN",
+        "_id": "630a2c8a418886a60023c138",
+        "createdAt": "2022-08-27T14:39:06.885Z",
+        "updatedAt": "2022-08-27T14:39:06.885Z"
+      }
+    }
+  }
+}

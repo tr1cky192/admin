@@ -1,0 +1,201 @@
+$color_hover_background: #e5e5e5;
+
+%text-style-component-navigation {
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 36px;
+  text-align: center;
+  color: #4c4c4c;
+}
+
+/*  for language window*/
+%language-text-style-block-addlang {
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 36px;
+  text-align: center;
+  color: #4c4c4c;
+}
+%language-text-style-block-li {
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  text-align: center;
+  color: #4c4c4c;
+}
+%scroll-container {
+  overflow-y: scroll;
+  &::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: rgb(183, 189, 198);
+    height: 15px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+  }
+  &::-webkit-scrollbar-track {
+    background: inherit;
+  }
+  &::-webkit-scrollbar-track-piece:start {
+    margin-top: 10px;
+  }
+  &::-webkit-scrollbar-track-piece:end {
+    margin-bottom: 10px;
+  }
+}
+
+%language-text-style-add-lang-h {
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: justify;
+  color: #4c4c4c;
+}
+
+%languag-text-style-btn {
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  text-align: center;
+  color: #ffffff;
+}
+.lang_container {
+  min-width: 250px;
+  height: 59px;
+}
+.lang_block_input1 {
+  @extend %text-style-component-navigation;
+}
+.block_lang_p {
+  @extend %text-style-component-navigation;
+}
+.block_lang_p2 {
+  text-transform: uppercase;
+  @extend %text-style-component-navigation;
+}
+
+/*  ===================================
+!!!!!!!        modal MENU  add language    !!!!!!!!!!!
+=============================================
+*/
+
+.container_add_lang {
+  width: 368px;
+
+  overflow: hidden;
+  background: #ffffff;
+  border: 1px solid #787878;
+  border-radius: 10px;
+  z-index: 90;
+}
+.block_lang {
+  height: 332px;
+  width: 368px;
+
+  @extend %scroll-container;
+}
+.block_lang_ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 0 30px;
+  list-style: none;
+  @extend %language-text-style-block-addlang;
+}
+.block_lang_li {
+  @extend %language-text-style-block-li;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+
+  min-height: 40px;
+
+  &:first-of-type {
+    padding-top: 16px;
+  }
+  &:last-of-type {
+    padding-bottom: 16px;
+  }
+
+  border-radius: 3px;
+}
+
+/* *****block_add_lang_text********/
+.block_add_lang_text {
+  width: 369px;
+  min-height: 311px;
+  padding-bottom: 32px;
+  background: rgba(193, 213, 228, 0.33);
+  border-radius: 10px;
+}
+
+.lang_block_input2 {
+  width: 199px;
+  height: 42px;
+  margin: 28px 0px 2px 133px;
+  background: #ffffff;
+  border: 1px solid #787878;
+  border-radius: 10px;
+  @extend %text-style-component-navigation;
+}
+.lang_block_input3 {
+  width: 108px;
+  height: 42px;
+  margin: 12px 0px 2px 224px;
+  background: #ffffff;
+  border: 1px solid #787878;
+  border-radius: 10px;
+  @extend %text-style-component-navigation;
+}
+.text_add_lang1 {
+  width: 274px;
+  padding: 18px 0px 0px 40px;
+  @extend %language-text-style-add-lang-h;
+}
+.text_add_lang2 {
+  padding: 0px 0px 0px 87px;
+  width: 246px;
+
+  @extend %language-text-style-add-lang-h;
+}
+.text_add_lang3 {
+  padding: 0px 0px 0px 210px;
+  width: 135px;
+  @extend %language-text-style-add-lang-h;
+}
+.language_btn_style_disable {
+  width: 154px;
+  height: 43px;
+  margin: 18px 0px 0px 178px;
+  background: rgba(0, 144, 255, 0.5);
+  border-radius: 3px;
+  @extend %languag-text-style-btn;
+}
+.language_btn_style_open {
+  width: 154px;
+  height: 43px;
+  margin: 18px 0px 0px 178px;
+  background: rgba(0, 144, 255, 0.5);
+  border-radius: 3px;
+  @extend %languag-text-style-btn;
+  &:hover {
+    background: rgba(0, 144, 255, 0.9);
+    border-radius: 3px;
+  }
+}

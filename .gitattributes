@@ -1,0 +1,32 @@
+# Autodetect text files
+*               text=auto eol=lf
+
+# Declare files that will always have LF line endings on checkout.
+*.ts            text eol=lf
+*.tsx           text eol=lf
+*.js            text eol=lf
+*.jsx           text eol=lf
+*.json          text eol=lf
+*.html          text eol=lf diff=html
+*.css           text eol=lf
+*.scss          text eol=lf
+*.txt           text eol=lf
+*.md            text eol=lf
+*.prettierrc    text eol=lf
+*.eslintrc      text eol=lf
+*.babelrc       text eol=lf
+*.editorconfig  text eol=lf
+*.gitignore     text eol=lf
+*.yaml          text eol=lf
+*.yml           text eol=lf
+
+# special
+*.sql           text
+*.docx          diff=astextplain
+*.DOCX          diff=astextplain
+
+# to prevent modification of binary.
+*.png           binary
+*.jpg           binary
+*.data          binary
+*.pdf           -text

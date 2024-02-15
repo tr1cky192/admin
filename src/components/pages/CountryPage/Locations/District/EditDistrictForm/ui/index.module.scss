@@ -1,0 +1,132 @@
+.modal {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(76, 76, 76, 0.28);
+  backdrop-filter: blur(7.5px);
+  top: 0;
+  left: 0;
+  z-index: 10;
+  &__window {
+    position: relative;
+    width: 316px;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #fff;
+    border: 1px solid #c9c9c9;
+    border-radius: 10px;
+    display: block;
+    z-index: 10;
+  }
+}
+
+.name {
+  position: absolute;
+  font-family: 'Segoe UI';
+  color: #fff;
+  top: -39px;
+  left: -150px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  z-index: 15;
+}
+
+.imageClose {
+  transform: rotateZ(45deg);
+  position: absolute;
+  top: 90px;
+  right: 138px;
+  cursor: pointer;
+  z-index: 11;
+  &:hover > path {
+    stroke: rgba(76, 76, 76, 0.5);
+  }
+  &:active > path {
+    stroke: #535252;
+  }
+}
+
+.url__item {
+  margin-bottom: 3px;
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+}
+
+.copy__btn {
+  font-family: 'Segoe UI';
+  padding: 4px;
+  width: 39px;
+  height: 24px;
+  background-color: #d0d0d0;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 13px;
+  color: #fff;
+  border: none;
+  &:hover {
+    background-color: #a5a5a5;
+  }
+  &_true {
+    background-color: #6aff79;
+    &:hover {
+      background-color: #6aff79;
+    }
+  }
+
+  &_false {
+    background-color: #ff6a6a;
+    &:hover {
+      background-color: #ff6a6a;
+    }
+  }
+}
+
+.url {
+  font-family: 'Segoe UI';
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 13px;
+}
+
+.copy__all_btn {
+  width: 150px;
+  font-family: 'Segoe UI';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 35px;
+  margin: 6px 0 0 64px;
+  background-color: #d0d0d0;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 13px;
+  color: #fff;
+  border: none;
+  &:hover {
+    background-color: #a5a5a5;
+  }
+  &_true {
+    background-color: #6aff79;
+    &:hover {
+      background-color: #6aff79;
+    }
+  }
+
+  &_false {
+    background-color: #ff6a6a;
+    &:hover {
+      background-color: #ff6a6a;
+    }
+  }
+}
+
+.infoButton {
+  position: absolute;
+  right: 133px;
+  top: -40px;
+}

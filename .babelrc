@@ -1,0 +1,12 @@
+{
+  "plugins": [
+    [
+      "babel-plugin-styled-components",
+      {
+        "ssr": true,
+        "minify": true,
+        "namespace": "yp-booking"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,1 @@
+export { VerificationHeader } from './VerificationHeader';

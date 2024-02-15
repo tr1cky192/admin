@@ -1,0 +1,144 @@
+// https://your-price-booking.herokuapp.com
+{
+  /*
+    GET  /api/location-state/
+  */
+  "GET states ✅": {
+    "status": "success",
+    "code": 200,
+    "data": {
+      "states": [
+        // many states in array ✅
+        {
+          "_id": "62eec3d4d26c6872771b5dbb",
+          "stateName": "Neveda State",
+          "stateInternational": "Neveda State",
+          "stateCode": "Neveda",
+          "international": "USA",
+          "edited": 0,
+          "langCode": "EN",
+          "dbLangCode": "EN",
+          "statePhotoURL": "https://Neveda.states.ua/photos/lviv-state.webp",
+          "countryId": "62eec1cdd26c6872771b5d7d",
+          "cities": [
+            {
+              "_id": "62eec899d26c6872771b5e16",
+              "stateId": "62eec3d4d26c6872771b5dbb",
+              "cityName": "Tonopah",
+              "cityInternational": "Tonopah",
+              "cityCode": "Tonopah",
+              "cityPhotoURL": "https://Tonopah.city.ua/photos/kyiv-city.webp",
+              "langCode": "EN",
+              "stateInternational": "Neveda State",
+              "state": "62eec3d4d26c6872771b5dbb",
+              "districts": [
+                {
+                  "_id": "62eecbd0d26c6872771b5e6d",
+                  "stateId": "62eec3d4d26c6872771b5dbb",
+                  "cityId": "62eec899d26c6872771b5e16",
+                  "districtName": "Central",
+                  "districtInternational": "Central",
+                  "districtCode": "CN",
+                  "districtPhotoURL": "https://Central.district.ua/photos/kyiv-podil.webp",
+                  "cityInternational": "Tonopah",
+                  "langCode": "EN",
+                  "dbLangCode": "EN"
+                }
+              ],
+              "createdAt": "2022-08-06T20:01:29.873Z",
+              "updatedAt": "2022-08-06T20:15:12.654Z",
+              "dbLangCode": "EN"
+            }
+          ],
+          "createdAt": "2022-08-06T19:41:08.799Z",
+          "updatedAt": "2022-08-06T20:01:30.409Z"
+        }
+      ]
+    }
+  },
+
+  "GET one state byID ✅": {
+    "status": "success",
+    "code": 200,
+    "data": {
+      "state": {
+        "_id": "62eec3d4d26c6872771b5dbb",
+        "stateName": "Neveda State",
+        "stateInternational": "Neveda State",
+        "stateCode": "Neveda",
+        "international": "USA",
+        "edited": 0,
+        "langCode": "EN",
+        "dbLangCode": "EN",
+        "statePhotoURL": "https://Neveda.states.ua/photos/lviv-state.webp",
+        "countryId": "62eec1cdd26c6872771b5d7d",
+        "cities": ["62eec886d26c6872771b5e12", "62eec899d26c6872771b5e16"],
+        "createdAt": "2022-08-06T19:41:08.799Z",
+        "updatedAt": "2022-08-06T20:01:30.409Z"
+      }
+    }
+  },
+
+  "ADD STATE ✅": {
+    "status": "success",
+    "message": "created state and added to all languages",
+    "code": 201,
+    "data": {
+      "state": {
+        "stateName": "Vinnytsia Region",
+        "stateInternational": "Vinnytsia Region",
+        "stateCode": "0432",
+        "international": "Malay",
+        "langCode": "EN",
+        "dbLangCode": "EN",
+        "countryId": "63026f8b97e14c8318815226",
+        "cities": [],
+        "_id": "63027d5597e14c831881524a",
+        "createdAt": "2022-08-21T18:45:41.118Z",
+        "updatedAt": "2022-08-21T18:45:41.118Z"
+      }
+    }
+  },
+
+  "EDIT STATE ✅": {
+    "status": "success",
+    "message": "state has been updated",
+    "code": 200,
+    "data": {
+      "state": {
+        "_id": "63027d5597e14c831881524a",
+        "stateName": "Central Region",
+        "stateInternational": "Central Region",
+        "stateCode": "SG-01",
+        "international": "Malay",
+        "langCode": "EN",
+        "dbLangCode": "EN",
+        "countryId": "63026f8b97e14c8318815226",
+        "cities": [],
+        "createdAt": "2022-08-21T18:45:41.118Z",
+        "updatedAt": "2022-08-21T19:12:34.015Z"
+      }
+    }
+  },
+
+  "DELETE state ✅": {
+    "status": "success",
+    "code": 200,
+    "message": "state deleted",
+    "data": {
+      "state": {
+        "_id": "63027d5597e14c831881524a",
+        "stateName": "Central Region",
+        "stateInternational": "Central Region",
+        "stateCode": "SG-01",
+        "international": "Malay",
+        "langCode": "EN",
+        "dbLangCode": "EN",
+        "countryId": "63026f8b97e14c8318815226",
+        "cities": [],
+        "createdAt": "2022-08-21T18:45:41.118Z",
+        "updatedAt": "2022-08-21T19:12:34.015Z"
+      }
+    }
+  }
+}

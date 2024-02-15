@@ -1,0 +1,92 @@
+{
+  // '/api/location-city'
+  "GET all cities ✅": {
+    "status": "success",
+    "code": 200,
+    "data": {
+      "cities": [
+        // many cities ✅
+        {
+          "_id": "62eec782d26c6872771b5e02",
+          "stateId": "62eec31ad26c6872771b5da9",
+          "cityName": "Austin",
+          "cityInternational": "Austin",
+          "cityCode": "Austin",
+          "cityPhotoURL": "https://Austin.city.ua/photos/kyiv-city.webp",
+          "langCode": "EN",
+          "stateInternational": "Texas State",
+          "state": "62eec31ad26c6872771b5da9",
+          "districts": [],
+          "createdAt": "2022-08-06T19:56:50.125Z",
+          "updatedAt": "2022-08-06T19:56:50.125Z",
+          "dbLangCode": "EN"
+        }
+      ]
+    }
+  },
+
+  // '/api/location-city/:_id'
+  "GET one city ✅": {
+    "status": "success",
+    "code": 200,
+    "data": {
+      "city": {
+        "_id": "62eec782d26c6872771b5e02",
+        "stateId": "62eec31ad26c6872771b5da9",
+        "cityName": "Austin",
+        "cityInternational": "Austin",
+        "cityCode": "Austin",
+        "cityPhotoURL": "https://Austin.city.ua/photos/kyiv-city.webp",
+        "langCode": "EN",
+        "stateInternational": "Texas State",
+        "state": "62eec31ad26c6872771b5da9",
+        "districts": [],
+        "createdAt": "2022-08-06T19:56:50.125Z",
+        "updatedAt": "2022-08-06T19:56:50.125Z",
+        "dbLangCode": "EN"
+      }
+    }
+  },
+
+  "add city request ": {
+    "stateId": "63027d5597e14c8318815259",
+    "cityName": "Monaco",
+    "cityInternational": "Monaco",
+    "cityCode": "MONA",
+    "langCode": "EN",
+    "stateInternational": "Vinnytsia Region"
+  },
+
+  // '/api/location-city'
+  "POST one city✅ response": {
+    "status": "success",
+    "message": "city created and added to all languages",
+    "code": 201,
+    "data": {
+      "city": {
+        "stateId": "63027d5597e14c8318815259",
+        "cityName": "Monaco",
+        "cityInternational": "Monaco",
+        "cityCode": "MONA",
+        "langCode": "EN",
+        "stateInternational": "Vinnytsia Region",
+        "state": "63027d5597e14c8318815259",
+        "districts": [],
+        "_id": "6302973397e14c8318815373",
+        "createdAt": "2022-08-21T20:36:03.922Z",
+        "updatedAt": "2022-08-21T20:36:03.922Z"
+      }
+    }
+  },
+
+  // '/api/location-city/:_id'
+  "PATCH one": {
+    "_id": "1",
+    "cityName": "cityNameTrimmed",
+    "cityPhotoURL": "cityPhotoURLTrimmed",
+    "langCode": "EN"
+  },
+
+  // '/api/location-city/:_id'
+  "DELETE one": {}
+}
